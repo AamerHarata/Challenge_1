@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using TestGoogle.Data;
 using TestGoogle.Models;
@@ -15,15 +16,15 @@ namespace TestGoogle.API
         }
 
         [Route("/api/GetData")]
-        public IActionResult LiveDate(string xAco, string yAco, string zAco)
+        public async Task<IActionResult> LiveDate(string xAco, string yAco, string zAco)
         {
             var result = new MobileData()
             {
                 xAco = xAco, yAco = yAco, zAco = zAco
             };
 
-            _context.Add(result);
-            _context.SaveChanges();
+            await _context.AddAsync(result);
+            await _context.SaveChangesAsync();
             
 
 
