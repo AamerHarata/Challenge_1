@@ -1,0 +1,34 @@
+﻿@model IEnumerable<MobileData>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div><h4>University of Twente</h4></div>
+    <div><h6>Challenge_1 Group_4</h6></div>
+    <hr/>
+    
+    <h1 class="display-4">Data test from phone</h1>
+    
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Acc - X</th>
+            <th>Acc - Y</th>
+            <th>Acc - Z</th>
+        </tr>
+        </thead>
+        
+        @foreach (var mobileDate in Model)
+        {
+            <tr>
+                <td>@mobileDate.xAco</td>
+                <td>@mobileDate.yAco</td>
+                <td>@mobileDate.zAco</td>
+            </tr>
+        }
+        
+        
+    </table>
+
+</div>
