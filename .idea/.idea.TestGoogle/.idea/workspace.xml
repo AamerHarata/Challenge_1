@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14865f10-9ce1-4004-9a21-b3ebfab6a346" name="Default Changelist" comment="" />
+    <list default="true" id="14865f10-9ce1-4004-9a21-b3ebfab6a346" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data/ApplicationDbInitializer.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
               <folding>
                 <marker date="1567545309472" expanded="true" signature="6:72" ph="..." />
                 <marker date="1567545309472" expanded="true" signature="99:535" ph="{...}" />
@@ -74,6 +76,31 @@
                 <marker date="1567521946778" expanded="true" signature="140:360" ph="{...}" />
                 <marker date="1567521946778" expanded="true" signature="258:278" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-334" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -114,19 +141,22 @@
         <entry file="file://$PROJECT_DIR$/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+              <caret line="26" column="89" selection-start-line="26" selection-start-column="89" selection-end-line="26" selection-end-column="89" />
               <folding>
-                <marker date="1567545267308" expanded="false" signature="6:326" ph="..." />
-                <marker date="1567545267308" expanded="true" signature="348:1134" ph="{...}" />
-                <marker date="1567545267308" expanded="true" signature="375:1132" ph="{...}" />
-                <marker date="1567545267308" expanded="true" signature="428:961" ph="{...}" />
-                <marker date="1567545267308" expanded="true" signature="557:910" ph="{...}" />
+                <marker date="1567545568644" expanded="false" signature="6:326" ph="..." />
+                <marker date="1567545568644" expanded="true" signature="348:1150" ph="{...}" />
+                <marker date="1567545568644" expanded="true" signature="375:1148" ph="{...}" />
+                <marker date="1567545568644" expanded="true" signature="428:977" ph="{...}" />
+                <marker date="1567545568644" expanded="true" signature="557:926" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Data/ApplicationDbInitializer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -150,8 +180,10 @@
         <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/Startup.cs" />
-        <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/Data/ApplicationDbInitializer.cs" />
+        <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/appsettings.json" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
       </list>
     </option>
   </component>
@@ -161,6 +193,7 @@
     <option name="width" value="3879" />
     <option name="height" value="2079" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -241,12 +274,12 @@
       <option name="presentableId" value="Default" />
       <updated>1567514873576</updated>
       <workItem from="1567514877804" duration="6863000" />
-      <workItem from="1567543754851" duration="1785000" />
+      <workItem from="1567543754851" duration="2503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8648000" />
+    <option name="totallyTimeSpent" value="9366000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -268,7 +301,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -309,9 +342,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Data.cs" />
-    <entry file="file://$PROJECT_DIR$/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/appsettings.Development.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -352,6 +382,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Home/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <marker date="1567544301995" expanded="true" signature="31:72" ph="@..." />
+            <marker date="1567544301995" expanded="true" signature="74:719" ph="&lt;div.../&gt;" />
+            <marker date="1567544301995" expanded="true" signature="265:711" ph="&lt;table.../&gt;" />
+            <marker date="1567544301995" expanded="true" signature="309:447" ph="&lt;thead.../&gt;" />
+            <marker date="1567544301995" expanded="true" signature="325:430" ph="&lt;tr.../&gt;" />
+            <marker date="1567544301995" expanded="true" signature="465:680" ph="@..." />
+            <marker date="1567544301995" expanded="true" signature="499:680" ph="{...}" />
+            <marker date="1567544301995" expanded="true" signature="522:670" ph="&lt;tr.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/HomeController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -368,28 +418,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Home/Index.cshtml">
+    <entry file="file://$PROJECT_DIR$/Data/ApplicationDbInitializer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="165">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
           <folding>
-            <marker date="1567544301995" expanded="true" signature="31:72" ph="@..." />
-            <marker date="1567544301995" expanded="true" signature="74:719" ph="&lt;div.../&gt;" />
-            <marker date="1567544301995" expanded="true" signature="265:711" ph="&lt;table.../&gt;" />
-            <marker date="1567544301995" expanded="true" signature="309:447" ph="&lt;thead.../&gt;" />
-            <marker date="1567544301995" expanded="true" signature="325:430" ph="&lt;tr.../&gt;" />
-            <marker date="1567544301995" expanded="true" signature="465:680" ph="@..." />
-            <marker date="1567544301995" expanded="true" signature="499:680" ph="{...}" />
-            <marker date="1567544301995" expanded="true" signature="522:670" ph="&lt;tr.../&gt;" />
+            <marker date="1567545309472" expanded="true" signature="6:72" ph="..." />
+            <marker date="1567545309472" expanded="true" signature="99:535" ph="{...}" />
+            <marker date="1567545309472" expanded="true" signature="143:533" ph="{...}" />
+            <marker date="1567545309472" expanded="true" signature="238:527" ph="{...}" />
+            <marker date="1567545309472" expanded="true" signature="280:376" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -415,20 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
-          <folding>
-            <marker date="1567545267308" expanded="false" signature="6:326" ph="..." />
-            <marker date="1567545267308" expanded="true" signature="348:1134" ph="{...}" />
-            <marker date="1567545267308" expanded="true" signature="375:1132" ph="{...}" />
-            <marker date="1567545267308" expanded="true" signature="428:961" ph="{...}" />
-            <marker date="1567545267308" expanded="true" signature="557:910" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/ApplicationDbContext.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -442,17 +466,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/ApplicationDbInitializer.cs">
+    <entry file="file://$PROJECT_DIR$/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        <state relative-caret-position="240">
+          <caret line="26" column="89" selection-start-line="26" selection-start-column="89" selection-end-line="26" selection-end-column="89" />
           <folding>
-            <marker date="1567545309472" expanded="true" signature="6:72" ph="..." />
-            <marker date="1567545309472" expanded="true" signature="99:535" ph="{...}" />
-            <marker date="1567545309472" expanded="true" signature="143:533" ph="{...}" />
-            <marker date="1567545309472" expanded="true" signature="238:527" ph="{...}" />
-            <marker date="1567545309472" expanded="true" signature="280:376" ph="{...}" />
+            <marker date="1567545568644" expanded="false" signature="6:326" ph="..." />
+            <marker date="1567545568644" expanded="true" signature="348:1150" ph="{...}" />
+            <marker date="1567545568644" expanded="true" signature="375:1148" ph="{...}" />
+            <marker date="1567545568644" expanded="true" signature="428:977" ph="{...}" />
+            <marker date="1567545568644" expanded="true" signature="557:926" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
         </state>
       </provider>
     </entry>
