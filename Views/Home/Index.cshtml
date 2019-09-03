@@ -9,6 +9,7 @@
     <hr/>
     
     <h1 class="display-4">Data test from phone</h1>
+    <button style="margin-bottom: 1rem" class="btn btn-danger" onclick="location.href='@Url.Action("DeleteAll")'">Delete All</button>
     
     <table class="table table-striped">
         <thead>
@@ -32,3 +33,12 @@
     </table>
 
 </div>
+
+@section Scripts
+{
+    <script>
+        $(document).ready(function() {
+
+        });
+    </script>
+}

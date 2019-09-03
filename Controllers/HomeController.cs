@@ -23,6 +23,14 @@ namespace TestGoogle.Controllers
             return View(_context.MobileData.OrderBy(x=>x.Id).ToList());
         }
 
+        public IActionResult DeleteAll()
+        {
+            var allData = _context.MobileData.ToList();
+            _context.RemoveRange(allData);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+
         public IActionResult Privacy()
         {
             return View();
