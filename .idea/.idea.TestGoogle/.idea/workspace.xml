@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14865f10-9ce1-4004-9a21-b3ebfab6a346" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/API/GetMobileData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/GetMobileData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="14865f10-9ce1-4004-9a21-b3ebfab6a346" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/API/GetMobileData.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="285">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <marker date="1567548047508" expanded="true" signature="6:109" ph="..." />
                 <marker date="1567548047508" expanded="true" signature="135:818" ph="{...}" />
@@ -215,6 +207,11 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="TestGoogle" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Migrations" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TestGoogle" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
@@ -270,12 +267,12 @@
       <option name="presentableId" value="Default" />
       <updated>1567514873576</updated>
       <workItem from="1567514877804" duration="6863000" />
-      <workItem from="1567543754851" duration="3453000" />
+      <workItem from="1567543754851" duration="3753000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10316000" />
+    <option name="totallyTimeSpent" value="10616000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -485,8 +482,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/API/GetMobileData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        <state relative-caret-position="285">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <marker date="1567548047508" expanded="true" signature="6:109" ph="..." />
             <marker date="1567548047508" expanded="true" signature="135:818" ph="{...}" />

@@ -8,7 +8,7 @@ using TestGoogle.Data;
 namespace TestGoogle.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190903212938_InitialCreate")]
+    [Migration("20190903220824_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

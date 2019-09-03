@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "6a3809189c032231e39d0dc89062182c76e4a6ec"
+    "signature": "ad35740c789d126e7e3c21232a8ce305a9c96f9f"
   },
   "compilationOptions": {
     "defines": [
@@ -26,7 +26,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
-          "Microsoft.EntityFrameworkCore.Design": "3.0.0-preview8.19405.11",
+          "Microsoft.EntityFrameworkCore.Design": "2.2.6",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.2.6",
           "Microsoft.NETCore.App": "2.2.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "2.2.4",
@@ -88,7 +88,21 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/2.2.6": {},
-      "Microsoft.EntityFrameworkCore.Design/3.0.0-preview8.19405.11": {},
+      "Microsoft.EntityFrameworkCore.Design/2.2.6": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {
+            "assemblyVersion": "2.2.6.0",
+            "fileVersion": "2.2.6.19169"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/2.2.6": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.2.6"
@@ -526,7 +540,7 @@
           "Microsoft.EntityFrameworkCore": "2.2.6",
           "Microsoft.EntityFrameworkCore.Abstractions": "2.2.6",
           "Microsoft.EntityFrameworkCore.Analyzers": "2.2.6",
-          "Microsoft.EntityFrameworkCore.Design": "3.0.0-preview8.19405.11",
+          "Microsoft.EntityFrameworkCore.Design": "2.2.6",
           "Microsoft.EntityFrameworkCore.InMemory": "2.2.0",
           "Microsoft.EntityFrameworkCore.Relational": "2.2.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.0",
@@ -1733,7 +1747,7 @@
       },
       "Microsoft.EntityFrameworkCore.Tools/2.2.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "3.0.0-preview8.19405.11"
+          "Microsoft.EntityFrameworkCore.Design": "2.2.6"
         },
         "compileOnly": true
       },
@@ -3499,12 +3513,12 @@
       "path": "microsoft.entityframeworkcore.analyzers/2.2.6",
       "hashPath": "microsoft.entityframeworkcore.analyzers.2.2.6.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Design/3.0.0-preview8.19405.11": {
+    "Microsoft.EntityFrameworkCore.Design/2.2.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-gZl1Jh996TNPFQAijVM/ccANJ/1K12E5j0GpiHgrGnVt6n4WMv3igkJ8wy16/w+gTeh35CQ962Yxi9obTToYlw==",
-      "path": "microsoft.entityframeworkcore.design/3.0.0-preview8.19405.11",
-      "hashPath": "microsoft.entityframeworkcore.design.3.0.0-preview8.19405.11.nupkg.sha512"
+      "sha512": "sha512-ouDKXTXY+ItF+PAK/jkp+Cp6Ve8Pd9sblyqOErjaiK7CzeN28peFsv3NfDeoqTAXXCCKEyuv/iXYtLs4r3wI0w==",
+      "path": "microsoft.entityframeworkcore.design/2.2.6",
+      "hashPath": "microsoft.entityframeworkcore.design.2.2.6.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/2.2.6": {
       "type": "package",
