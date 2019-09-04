@@ -14,18 +14,26 @@
     <table class="table table-striped">
         <thead>
         <tr>
+            <th>#</th>
             <th>Acc - X</th>
             <th>Acc - Y</th>
             <th>Acc - Z</th>
+            <th>Geo - X</th>
+            <th>Geo - Y</th>
+            <th>Picture</th>
         </tr>
         </thead>
         
         @foreach (var mobileDate in Model)
         {
             <tr>
+                <td>@mobileDate.Id</td>
                 <td>@mobileDate.xAco</td>
                 <td>@mobileDate.yAco</td>
                 <td>@mobileDate.zAco</td>
+                <td>@mobileDate.xGeo</td>
+                <td>@mobileDate.yGeo</td>
+                <td>-</td>
             </tr>
         }
         
@@ -38,7 +46,7 @@
 {
     <script>
         $(document).ready(function() {
-
-        });
+        
+        
     </script>
 }
