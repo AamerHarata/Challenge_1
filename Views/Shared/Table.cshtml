@@ -12,11 +12,11 @@
         <th>Picture</th>
     </tr>
     </thead>
-        
+        @{ var i = 1;}
     @foreach (var mobileDate in Model)
     {
         <tr>
-            <td>@mobileDate.Id</td>
+            <td>@i</td>
             <td>@mobileDate.xAco</td>
             <td>@mobileDate.yAco</td>
             <td>@mobileDate.zAco</td>
@@ -24,6 +24,7 @@
             <td>@mobileDate.yGeo</td>
             <td>-</td>
         </tr>
+        i++;
     }
         
         

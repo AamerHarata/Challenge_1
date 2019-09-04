@@ -22,7 +22,7 @@ namespace TestGoogle.Controllers
         public IActionResult Index()
         {
 
-            return PartialView("Table", _context.MobileData.OrderBy(x => x.Id).ToList());
+            return PartialView("Table", _context.MobileData.OrderBy(x => x.DateTime).ToList());
         }
 
 
