@@ -22,7 +22,11 @@ namespace TestGoogle.Migrations
 
                     b.Property<string>("xAco");
 
+                    b.Property<string>("xGeo");
+
                     b.Property<string>("yAco");
+
+                    b.Property<string>("yGeo");
 
                     b.Property<string>("zAco");
 

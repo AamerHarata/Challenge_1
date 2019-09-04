@@ -14,7 +14,9 @@ namespace TestGoogle.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     xAco = table.Column<string>(nullable: true),
                     yAco = table.Column<string>(nullable: true),
-                    zAco = table.Column<string>(nullable: true)
+                    zAco = table.Column<string>(nullable: true),
+                    xGeo = table.Column<string>(nullable: true),
+                    yGeo = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
