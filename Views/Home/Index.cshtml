@@ -1,5 +1,4 @@
-﻿@model IEnumerable<MobileData>
-@{
+﻿@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -11,34 +10,10 @@
     <h1 class="display-4">Data test from phone</h1>
     <button style="margin-bottom: 1rem" class="btn btn-danger" onclick="location.href='@Url.Action("DeleteAll")'">Delete All</button>
     
-    <table class="table table-striped">
-        <thead>
-        <tr>
-            <th>#</th>
-            <th>Acc - X</th>
-            <th>Acc - Y</th>
-            <th>Acc - Z</th>
-            <th>Geo - X</th>
-            <th>Geo - Y</th>
-            <th>Picture</th>
-        </tr>
-        </thead>
+    <div id="table-container">
         
-        @foreach (var mobileDate in Model)
-        {
-            <tr>
-                <td>@mobileDate.Id</td>
-                <td>@mobileDate.xAco</td>
-                <td>@mobileDate.yAco</td>
-                <td>@mobileDate.zAco</td>
-                <td>@mobileDate.xGeo</td>
-                <td>@mobileDate.yGeo</td>
-                <td>-</td>
-            </tr>
-        }
-        
-        
-    </table>
+    </div>
+    
 
 </div>
 
@@ -46,7 +21,22 @@
 {
     <script>
         $(document).ready(function() {
-        
-        
+            
+            setInterval(function(){getDbData();}, 1000);
+            
+            function getDbData() {
+                $.ajax({
+                    type: "GET",
+                    url: "/ReceiveData",
+                    success: function(response) {
+                        console.log(response);
+                        $("#table-container").html(response);
+                    }
+                });
+            }
+            
+            
+        });
+
     </script>
 }

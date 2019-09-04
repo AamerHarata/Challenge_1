@@ -1,5 +1,6 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using TestGoogle.Data;
 using TestGoogle.Models;
 
@@ -16,7 +17,7 @@ namespace TestGoogle.API
         }
 
         [Route("/api/GetData")]
-        public async Task<IActionResult> LiveDate(string xAco, string yAco, string zAco, string xGeo, string yGeo)
+        public async Task<IActionResult> LiveData(string xAco, string yAco, string zAco, string xGeo, string yGeo)
         {
             var result = new MobileData()
             {
@@ -25,11 +26,17 @@ namespace TestGoogle.API
 
             await _context.AddAsync(result);
             await _context.SaveChangesAsync();
-            
-
 
             return Ok(new {xAco, yAco, zAco});
         }
+
+
+//        [Route("/api/ReceiveData")]
+//        public async Task<IActionResult> GetAllData()
+//        {
+//            
+//            return Ok(await _context.MobileData.ToListAsync());
+//        }
         
     }
 }

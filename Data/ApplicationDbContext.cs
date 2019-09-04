@@ -12,5 +12,10 @@ namespace TestGoogle.Data
         
         
         public DbSet<MobileData> MobileData { get; set; }
+        
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            
+        }
     }
 }

@@ -28,3 +28,4 @@ D:\GitFolders\Programming\Twente\TestGoogle\obj\Debug\netcoreapp2.2\TestGoogle.V
 D:\GitFolders\Programming\Twente\TestGoogle\obj\Debug\netcoreapp2.2\TestGoogle.dll
 D:\GitFolders\Programming\Twente\TestGoogle\obj\Debug\netcoreapp2.2\TestGoogle.pdb
 D:\GitFolders\Programming\Twente\TestGoogle\obj\Debug\netcoreapp2.2\TestGoogle.csproj.CopyComplete
+D:\GitFolders\Programming\Twente\TestGoogle\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Table.g.cshtml.cs

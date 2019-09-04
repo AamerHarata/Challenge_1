@@ -20,7 +20,7 @@ namespace TestGoogle.Controllers
         public IActionResult Index()
         {
             
-            return View(_context.MobileData.OrderBy(x=>x.Id).ToList());
+            return View();
         }
 
         public IActionResult DeleteAll()
