@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace TestGoogle.Migrations
 {
@@ -11,7 +12,7 @@ namespace TestGoogle.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn),
                     xAco = table.Column<string>(nullable: true),
                     yAco = table.Column<string>(nullable: true),
                     zAco = table.Column<string>(nullable: true),
