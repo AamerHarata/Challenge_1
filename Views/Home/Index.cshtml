@@ -19,23 +19,35 @@
 
 @section Scripts
 {
+    
     <script>
+        let keepAlive = true;
         $(document).ready(function() {
+
+            setInterval(function() { getDbData(); }, 3000);
+
             
-            setInterval(function(){getDbData();}, 1000);
-            
+
+
             function getDbData() {
-                $.ajax({
-                    type: "GET",
-                    url: "/ReceiveData",
-                    success: function(response) {
-                        console.log(response);
-                        $("#table-container").html(response);
-                    }
-                });
+                $.get("/ReceiveData",
+                    function(response) {
+
+                        if (keepAlive) {
+                            $("#table-container").html($(response));
+                        
+//                            $("html, body").animate({ scrollTop: $(document).height() }, 2500);
+                        }
+                        
+                    });
             }
-            
-            
+
+            $("#stop").click(function() {
+                keepAlive = false;
+                return false;
+            });
+
+
         });
 
     </script>

@@ -7,6 +7,7 @@
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="https://api.mazemap.com/js/v2.0.14/mazemap.min.css">
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -20,7 +21,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
+            <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">TestGoogle</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +40,7 @@
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="container-fluid">
         <partial name="_CookieConsentPartial" />
         <main role="main" class="pb-3">
             @RenderBody()
@@ -70,7 +71,8 @@
                 integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o">
         </script>
     </environment>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+<script type='text/javascript' src='https://api.mazemap.com/js/v2.0.14/mazemap.min.js'></script>
 
     @RenderSection("Scripts", required: false)
 </body>
