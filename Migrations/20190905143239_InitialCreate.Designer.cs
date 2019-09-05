@@ -4,22 +4,19 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using TestGoogle.Data;
 
 namespace TestGoogle.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190904122310_InitialCreate")]
+    [Migration("20190905143239_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn)
-                .HasAnnotation("ProductVersion", "2.2.6-servicing-10079")
-                .HasAnnotation("Relational:MaxIdentifierLength", 63);
+                .HasAnnotation("ProductVersion", "2.2.6-servicing-10079");
 
             modelBuilder.Entity("TestGoogle.Models.MobileData", b =>
                 {
@@ -27,6 +24,8 @@ namespace TestGoogle.Migrations
                         .ValueGeneratedOnAdd();
 
                     b.Property<DateTime>("DateTime");
+
+                    b.Property<int>("TestNumber");
 
                     b.Property<string>("xAco");
 

@@ -17,7 +17,8 @@ namespace TestGoogle.Migrations
                     zAco = table.Column<string>(nullable: true),
                     xGeo = table.Column<string>(nullable: true),
                     yGeo = table.Column<string>(nullable: true),
-                    DateTime = table.Column<DateTime>(nullable: false)
+                    DateTime = table.Column<DateTime>(nullable: false),
+                    TestNumber = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
