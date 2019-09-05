@@ -62,6 +62,25 @@ namespace TestGoogle.Controllers
             return File(new System.Text.UTF8Encoding().GetBytes(csv), "text/csv", "something.csv" );
         }
 
+
+        public IActionResult Summery()
+        {
+            var tests = new List<int>();
+            tests.AddRange(from b in _context.MobileData
+                group b by b.TestNumber
+                into g
+                select g.First().TestNumber);
+            
+
+
+            ViewBag.count = tests.Count();
+            
+            
+            return View(new SummeryViewModel());
+        }
+        
+        
+
         public IActionResult Privacy()
         {
             return View();

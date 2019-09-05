@@ -32,6 +32,7 @@
       <e p="Models" t="Include">
         <e p="ErrorViewModel.cs" t="Include" />
         <e p="MobileData.cs" t="Include" />
+        <e p="SummeryViewModel.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
@@ -44,6 +45,10 @@
       <e p="Program.cs" t="Include" />
       <e p="Properties" t="Include">
         <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Services" t="Include">
+        <e p="ITestService.cs" t="Include" />
+        <e p="TestService.cs" t="Include" />
       </e>
       <e p="Startup.cs" t="Include" />
       <e p="TestGoogle.csproj" t="IncludeRecursive" />
