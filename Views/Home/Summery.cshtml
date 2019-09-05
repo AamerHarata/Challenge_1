@@ -1,9 +1,68 @@
-@model SummeryViewModel
+@model List<SummeryViewModel>
 
 @{
     ViewBag.Title = "Summary";
     Layout = "_Layout";
 }
 
-<h6>All Test will be shown here as a summery</h6>
-<h1>@ViewBag.count</h1>
+<style>
+    .test-container {
+        width: 60%;
+        margin: auto auto 1rem auto;
+        border-radius: 1rem;
+        padding: 1rem;
+        background: whitesmoke;
+    }
+    
+    table {
+        /* width: 50%; */
+        margin-top: 1rem;
+    }
+    
+</style>
+
+
+@if (!Model.Any())
+{
+    <h3 class="text-center">No Tests Yet!</h3>
+    
+}
+else
+{
+    foreach(var test in Model)
+     {
+         <div class="test-container">
+             <div class="text-center"><strong>Test Number: @test.TestNumber</strong></div>
+             
+             <table class="table">
+                 <thead>
+                 <tr>
+                     <th>Start Time:</th>
+                     <td>@test.StartTime.ToString(@"hh\:mm")</td>
+                     <th>End Time:</th>
+                     <td>@test.EndTime.ToString(@"hh\:mm")</td>
+                     <th>Period:</th>
+                     <td>@Math.Round(((test.EndTime - test.StartTime).TotalMinutes), 2) Minutes</td>
+                 </tr>
+                 </thead>
+                 
+                 <tr>
+                     <th>Bumps:</th>
+                     <td>0</td>
+                     <th>Holes:</th>
+                     <td>3</td>
+                     <th>Total:</th>
+                     <td>3</td>
+                 </tr>
+                 
+                 <tfoot class="text-center">
+                 <td colspan="2"><button class="btn btn-secondary">Show All Data</button></td>
+                 <td colspan="2"><button class="btn btn-info">Show Full Map</button></td>
+                 <td colspan="2"><button class="btn btn-danger">Delete Test</button></td>
+                 </tfoot>
+             </table>
+             
+             
+         </div>
+     }
+}

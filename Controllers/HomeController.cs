@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using TestGoogle.Data;
 using TestGoogle.Models;
 using System.Web;
+using TestGoogle.Services;
 
 
 namespace TestGoogle.Controllers
@@ -15,10 +16,12 @@ namespace TestGoogle.Controllers
     public class HomeController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly ITestService _testService;
 
-        public HomeController(ApplicationDbContext context)
+        public HomeController(ApplicationDbContext context, ITestService testService)
         {
             _context = context;
+            _testService = testService;
         }
         public IActionResult Index()
         {
@@ -42,12 +45,18 @@ namespace TestGoogle.Controllers
         public IActionResult SaveData(string testNumber)
         {
             var result = new List<MobileData>();
-            if (string.IsNullOrEmpty(testNumber))
+            var fileName = "";
+            
+            if (string.IsNullOrEmpty(testNumber)){
                 result = _context.MobileData.OrderBy(x=>x.DateTime).ToList();
+                fileName = "AllData.csv";
+            }
+            
             
             else
             {
                 result = _context.MobileData.Where(x => x.TestNumber.ToString() == testNumber).OrderBy(x=>x.DateTime).ToList();
+                fileName = "DataForTestNr-" + testNumber + ".csv";
             }
             
             
@@ -59,7 +68,7 @@ namespace TestGoogle.Controllers
             
             
             
-            return File(new System.Text.UTF8Encoding().GetBytes(csv), "text/csv", "something.csv" );
+            return File(new System.Text.UTF8Encoding().GetBytes(csv), "text/csv", fileName );
         }
 
 
@@ -71,12 +80,21 @@ namespace TestGoogle.Controllers
                 into g
                 select g.First().TestNumber);
             
+            var vm = new List<SummeryViewModel>();
+
+            foreach (var test in tests)
+            {
+                var timing = _testService.GetStartEndTime(test);
+                
+                vm.Add(new SummeryViewModel(){TestNumber = test, StartTime = timing[0], EndTime = timing[1]});
+            }
 
 
-            ViewBag.count = tests.Count();
+            
+
             
             
-            return View(new SummeryViewModel());
+            return View(vm);
         }
         
         
@@ -97,19 +115,27 @@ namespace TestGoogle.Controllers
         
         
         
-        private string ListToCSV<T>(IEnumerable<T> list)
+        private string ListToCSV(IEnumerable<MobileData> list)
         {
             StringBuilder sList = new StringBuilder();
 
-            Type type = typeof(T);
-            var props = type.GetProperties();
-            sList.Append(string.Join(",", props.Select(p => p.Name)));
+//            Type type = typeof(T);
+//            var props = type.GetProperties();
+
+            sList.AppendFormat("{0},{1},{2},{3},{4}, {5},{6},{7}", "#","Time", "xAco", "yAco", "zAco", "xGeo", "yGeo",
+                "Test Nr.");
+            
+//            sList.Append(string.Join(",", props.Select(p => p.Name)));
             sList.Append(Environment.NewLine);
 
+            var i = 1;
             foreach (var element in list)
             {
-                sList.Append(string.Join(",", props.Select(p => p.GetValue(element, null))));
+//                sList.Append(string.Join(",", props.Select(p => p.GetValue(element, null))));
+                sList.AppendFormat("{0},{1},{2},{3},{4},{5},{6},{7}", i, element.DateTime.ToString((@"hh\:mm:ss")), element.xAco, element.yAco, element.zAco,
+                    element.xGeo, element.yGeo, element.TestNumber);
                 sList.Append(Environment.NewLine);
+                i++;
             }
 
             return sList.ToString();
