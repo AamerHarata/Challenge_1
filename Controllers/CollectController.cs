@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 using Microsoft.AspNetCore.Mvc;
 using TestGoogle.Data;
 using TestGoogle.Models;
@@ -22,29 +23,57 @@ namespace TestGoogle.Controllers
         [Route("/ReceiveData")]
         public IActionResult Index()
         {
-            //ToDo:: Get All data from database
-            //ToDo:: Check where do we have bump or hole algorithm
-            //ToDo:: Order them by time stamp
-            //ToDo:: Show them in the list
-            
-            
-            
-            
-            
-            
+
             var collectedData = _context.MobileData.OrderByDescending(x => x.DateTime).ToList();
 
-//            foreach (var result in collectedData)
-//            {
-//                result.Increment = Increment;
-//                result.Collected = true;
-//                _context.Update(result);
-//                _context.SaveChanges();
-//                Increment++;
-//
-//            }
-
+            
             return PartialView("Table", collectedData);
+        }
+        
+        [Route("/ReceiveDefect")]
+        public IActionResult Defect()
+        {
+            TestDefect();
+
+            var collectedDefects = _context.Defects.OrderByDescending(x => x.Time).ToList();
+
+            
+            return PartialView("TableDefect", collectedDefects);
+        }
+
+        private void TestDefect()
+        {
+            var possibles = _context.Possibles.Where(x => !x.Tested).ToList();
+
+            foreach (var pos in possibles)
+            {
+                pos.Tested = true;
+                _context.Update(pos);
+                _context.SaveChanges();
+                
+                var prev = _context.MobileData.Where(x => x.DateTime < pos.Time && (x.DateTime > pos.Time.Subtract(new TimeSpan(0, 0, 1)))).ToList();
+
+//                var prev = _context.MobileData.Where(x => x.DateTime > pos.Time.Subtract(new TimeSpan(0, 0, 10)));
+//                Console.Write(prev);
+                foreach (var pr in prev)
+                {
+                    if (double.Parse(pr.zAco) > 12 || double.Parse(pr.zAco) < 4)
+                    {
+                        continue;
+                    }
+                    
+                    var defect = new Defect()
+                    {
+                        xAco = pos.xAco, yAco = pos.yAco, zAco = pos.zAco, Time = pos.Time, TestNumber = pos.TestNumber
+                    };
+
+                    _context.Add(defect);
+                    _context.SaveChanges();
+                }
+
+            }
+            
+            
         }
 
 

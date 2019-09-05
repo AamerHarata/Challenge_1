@@ -2,13 +2,84 @@
     ViewData["Title"] = "Home Page";
 }
 
+
+<style>
+    .defect-div {
+        width: 90%;
+        margin: 0.5rem auto;
+        background-color: whitesmoke;
+        padding: 1rem;
+        /* display: flex; */
+        border-radius: 0.3rem;
+    
+    }
+
+    .defect-pic {
+        display: block;
+        width: 8%;
+        background-color: gray;
+        padding: 0.3rem;
+        float: left;
+    }
+
+    .defect-body {
+        margin-left: 1rem;
+        width: 92%;
+    }
+
+    .defect-date {
+        float: right;
+    }
+    
+    .defect-table {
+        vertical-align: middle!important;
+        text-align: center!important;
+    }
+    
+    .defect-table td {
+        
+    }
+</style>
+
+
+
+
 <div class="text-center">
     <div><h4>University of Twente</h4></div>
     <div><h6>Challenge_1 Group_4</h6></div>
     <hr/>
     
-    <h1 class="display-4">Data test from phone</h1>
-    <button style="margin-bottom: 1rem" class="btn btn-danger" onclick="location.href='@Url.Action("DeleteAll")'">Delete All</button>
+    <h1 class="display-4" style="font-size: 2.5rem; margin-bottom: 1rem;">Listening for Defects</h1>
+    
+    <div class="defect-div" style="background-color: white">
+            
+        
+        <div class="row">
+            <div class="col-9">
+                <table class="table defect-table">
+
+                    <tr>
+                        <th>Holes Found:</th><td>0</td>
+                        <th>Bumps Found:</th><td>0</td>
+                        <th>Total:</th><td>0</td>
+                        
+                    </tr>
+                    <tr>
+                        <th>Mobile Timer: </th><td>1.13 min</td>
+                        <th>Current Accelerometer: </th><td>X - Y - Z</td>
+                        <th>Current Location: </th><td>Lat: 2, Lang: 2</td>
+
+
+                    </tr>
+
+                </table>
+            </div>
+            
+            
+            <div class="col-3">PICTURE</div>
+        </div>
+            
+    </div>
     
     <div id="table-container">
         
@@ -30,7 +101,7 @@
 
 
             function getDbData() {
-                $.get("/ReceiveData",
+                $.get("/ReceiveDefect",
                     function(response) {
 
                         if (keepAlive) {

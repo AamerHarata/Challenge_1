@@ -1,0 +1,57 @@
+@model IEnumerable<Defect>
+
+   
+@if (!Model.Any())
+{
+    <h4 class="text-center">No holes or bumps yet!</h4>
+}
+else
+{
+    var i = Model.Count();
+    foreach (var defect in Model)
+    {
+        
+        
+        
+        <div class="defect-div">
+            
+            <table class="table defect-table">
+                
+                <tr>
+                    <th>#</th>
+                    <th>Type</th>
+                    <th>Accelerometer</th>
+                    <th>Location</th>
+                    <th>Time</th>
+                    <th>Map</th>
+                </tr>
+                
+                
+                <tr>
+                    <td><div style="margin: auto">@i</div></td>
+                    <td>@defect.DefType</td>
+                    <td>X: @Math.Round(double.Parse(defect.xAco), 3) - Y: @Math.Round(double.Parse(defect.yAco), 3) - Z: @Math.Round(double.Parse(defect.zAco), 3)</td>
+                    <td>Latitude: @defect.xGeo, Longitude: @defect.yGeo</td>
+                    <td>@defect.Time.AddHours(2).ToString(@"hh\:mm\:ss")</td>
+                    <td style="width: 200px; height: 200px">PICTURE HERE</td>
+                </tr>
+            </table>
+            <span class="small defect-date"></span>
+            
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        i--;
+    }
+}
+
+
+        

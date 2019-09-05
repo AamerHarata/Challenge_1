@@ -12,10 +12,8 @@ namespace TestGoogle.Data
         
         
         public DbSet<MobileData> MobileData { get; set; }
+        public DbSet<Defect> Defects { get; set; }
+        public DbSet<Possible> Possibles { get; set; }
         
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            
-        }
     }
 }

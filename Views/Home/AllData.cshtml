@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div><h4>University of Twente</h4></div>
+    <div><h6>Challenge_1 Group_4</h6></div>
+    <hr/>
+    
+    <h1 class="display-4">Data test from phone</h1>
+    <button style="margin-bottom: 1rem" class="btn btn-danger" onclick="location.href='@Url.Action("DeleteAll")'">Delete All</button>
+    
+    <div id="table-container">
+        
+    </div>
+    
+
+</div>
+
+@section Scripts
+{
+    
+    <script>
+        let keepAlive = true;
+        $(document).ready(function() {
+
+            setInterval(function() { getDbData(); }, 3000);
+
+            
+
+
+            function getDbData() {
+                $.get("/ReceiveData",
+                    function(response) {
+
+                        if (keepAlive) {
+                            $("#table-container").html($(response));
+                        
+                        }
+                        
+                    });
+            }
+
+            $("#stop").click(function() {
+                keepAlive = false;
+                return false;
+            });
+
+
+        });
+
+    </script>
+}

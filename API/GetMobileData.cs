@@ -1,8 +1,10 @@
+using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TestGoogle.Data;
 using TestGoogle.Models;
+using TestGoogle.Services;
 
 namespace TestGoogle.API
 {
@@ -23,6 +25,26 @@ namespace TestGoogle.API
             {
                 xAco = xAco, yAco = yAco, zAco = zAco, xGeo = xGeo, yGeo = yGeo, TestNumber = testNumber
             };
+
+            if (double.Parse(zAco) > 12)
+            {
+                var posible = new Possible()
+                {
+                    xAco = xAco, yAco = yAco,zAco = zAco,xGeo = xGeo, yGeo = yGeo, TestNumber = testNumber, Type = DefType.Hole
+                };
+
+                await _context.AddAsync(posible);
+                await _context.SaveChangesAsync();
+            }else if (double.Parse(zAco) < 4)
+            {
+                var posible = new Possible()
+                {
+                    xAco = xAco, yAco = yAco,zAco = zAco,xGeo = xGeo, yGeo = yGeo, TestNumber = testNumber, Type = DefType.Bump
+                };
+
+                await _context.AddAsync(posible);
+                await _context.SaveChangesAsync();
+            }
 
             await _context.AddAsync(result);
             await _context.SaveChangesAsync();

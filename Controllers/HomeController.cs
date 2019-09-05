@@ -29,6 +29,12 @@ namespace TestGoogle.Controllers
             return View();
         }
 
+
+        public IActionResult AllData()
+        {
+            return View();
+        }
+
         [Route("/DeleteData/{testNumber?}")]
         public IActionResult DeleteAll(string testNumber)
         {

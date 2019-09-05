@@ -25,8 +25,10 @@
       <e p="docker-compose.yml" t="Include" />
       <e p="Dockerfile" t="Include" />
       <e p="Models" t="Include">
+        <e p="Defect.cs" t="Include" />
         <e p="ErrorViewModel.cs" t="Include" />
         <e p="MobileData.cs" t="Include" />
+        <e p="Possible.cs" t="Include" />
         <e p="SummeryViewModel.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
@@ -42,6 +44,7 @@
         <e p="launchSettings.json" t="Include" />
       </e>
       <e p="Services" t="Include">
+        <e p="DefType.cs" t="Include" />
         <e p="ITestService.cs" t="Include" />
         <e p="TestService.cs" t="Include" />
       </e>
@@ -51,6 +54,7 @@
         <e p="_ViewImports.cshtml" t="Include" />
         <e p="_ViewStart.cshtml" t="Include" />
         <e p="Home" t="Include">
+          <e p="AllData.cshtml" t="Include" />
           <e p="Index.cshtml" t="Include" />
           <e p="Privacy.cshtml" t="Include" />
           <e p="Summery.cshtml" t="Include" />
@@ -61,6 +65,7 @@
           <e p="_ValidationScriptsPartial.cshtml" t="Include" />
           <e p="Error.cshtml" t="Include" />
           <e p="Table.cshtml" t="Include" />
+          <e p="TableDefect.cshtml" t="Include" />
         </e>
       </e>
       <e p="wwwroot" t="Include">
