@@ -26,9 +26,13 @@ namespace TestGoogle.Controllers
             return View();
         }
 
-        public IActionResult DeleteAll()
+        [Route("/DeleteData/{testNumber?}")]
+        public IActionResult DeleteAll(string testNumber)
         {
-            var allData = _context.MobileData.ToList();
+            var allData = new List<MobileData>();
+
+            allData = string.IsNullOrEmpty(testNumber) ? _context.MobileData.ToList() : _context.MobileData.Where(x=>x.TestNumber.ToString() == testNumber).ToList();
+            
             _context.RemoveRange(allData);
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
