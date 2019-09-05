@@ -17,11 +17,11 @@ namespace TestGoogle.API
         }
 
         [Route("/api/GetData")]
-        public async Task<IActionResult> LiveData(string xAco, string yAco, string zAco, string xGeo, string yGeo)
+        public async Task<IActionResult> LiveData(string xAco, string yAco, string zAco, string xGeo, string yGeo, int testNumber)
         {
             var result = new MobileData()
             {
-                xAco = xAco, yAco = yAco, zAco = zAco, xGeo = xGeo, yGeo = yGeo
+                xAco = xAco, yAco = yAco, zAco = zAco, xGeo = xGeo, yGeo = yGeo, TestNumber = testNumber
             };
 
             await _context.AddAsync(result);

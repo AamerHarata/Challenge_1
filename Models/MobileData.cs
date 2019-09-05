@@ -12,8 +12,7 @@ namespace TestGoogle.Models
         public string xGeo { get; set; }
         public string yGeo { get; set; }
         public DateTime DateTime { get; set; } = DateTime.Now;
-        public bool Collected { get; set; }
-        public int Increment { get; set; }
+
         public int TestNumber { get; set; }
     }
 }

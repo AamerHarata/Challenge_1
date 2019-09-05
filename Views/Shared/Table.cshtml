@@ -1,7 +1,7 @@
 @model IEnumerable<MobileData>
 
 
-<table id="table-container" class="table table-hover text-center" style="vertical-align: middle; width: 100%">
+<table id="table-container" class="table table-hover text-center">
     <thead>
     <tr>
         <th>#</th>
@@ -10,7 +10,8 @@
         <th>Acc - Z</th>
         <th>Geo - X</th>
         <th>Geo - Y</th>
-        <th>Picture</th>
+        <th>Test Nr.</th>
+        @* <th>Picture</th> *@
     </tr>
     </thead>
     
@@ -18,21 +19,22 @@
     @{ var i = Model.Count();}
     @foreach (var mobileDate in Model)
     {
-        <tr style="vertical-align: middle; height: 200px">
+        <tr>
             <td>@i</td>
             <td>@mobileDate.xAco</td>
             <td>@mobileDate.yAco</td>
             <td>@mobileDate.zAco</td>
             <td>@mobileDate.xGeo</td>
             <td>@mobileDate.yGeo</td>
+            <td>@mobileDate.TestNumber</td>
             @* <td> *@
             @* <div id="@mobileDate.Id" class="mazemap" style="position: relative; width: 10rem; height: 6rem;"></div></td> *@
-            <td><img src="https://maps.googleapis.com/maps/api/staticmap?center=52.237636,6.8607345&zoom=18&size=200x200&scale=2&maptype=roadmap\
-                &markers=color:red%7Clabel:H%7C52.237636,6.8607345&key=AIzaSyC0mLIcD6TdgT0xuRJ3BxU9eD86nWf7Da4"/></td>
+@*             <td><img src="https://maps.googleapis.com/maps/api/staticmap?center=52.237636,6.8607345&zoom=18&size=200x200&scale=2&maptype=roadmap\ *@
+@*                 &markers=color:red%7Clabel:H%7C52.237636,6.8607345&key=AIzaSyC0mLIcD6TdgT0xuRJ3BxU9eD86nWf7Da4"/></td> *@
         </tr>
         i--;
     }
 </table>
 
-<button class="btn btn-dark" id="stop">STOP</button>
+@* <button class="btn btn-dark" id="stop">STOP</button> *@
         
