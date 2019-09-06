@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14865f10-9ce1-4004-9a21-b3ebfab6a346" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Views/Shared/Table.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/Table.cshtml" afterDir="false" />
-    </list>
+    <list default="true" id="14865f10-9ce1-4004-9a21-b3ebfab6a346" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -415,12 +413,12 @@
       <workItem from="1567543754851" duration="5910000" />
       <workItem from="1567580564631" duration="2073000" />
       <workItem from="1567590631527" duration="5700000" />
-      <workItem from="1567691466249" duration="41080000" />
+      <workItem from="1567691466249" duration="41667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76651000" />
+    <option name="totallyTimeSpent" value="77238000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
