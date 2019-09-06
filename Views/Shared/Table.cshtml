@@ -19,7 +19,7 @@
     @{ var i = Model.Count();}
     @foreach (var mobileDate in Model)
     {
-        <tr>
+        <tr class="testNumber" testNr="@mobileDate.TestNumber">
             <td>@i</td>
             <td>@mobileDate.xAco</td>
             <td>@mobileDate.yAco</td>

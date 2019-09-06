@@ -17,6 +17,7 @@
       <e p="Controllers" t="Include">
         <e p="CollectController.cs" t="Include" />
         <e p="HomeController.cs" t="Include" />
+        <e p="Report.cs" t="Include" />
       </e>
       <e p="Data" t="Include">
         <e p="ApplicationDbContext.cs" t="Include" />
@@ -59,11 +60,16 @@
           <e p="Privacy.cshtml" t="Include" />
           <e p="Summery.cshtml" t="Include" />
         </e>
+        <e p="Report" t="Include">
+          <e p="StaticData.cshtml" t="Include" />
+          <e p="StaticMap.cshtml" t="Include" />
+        </e>
         <e p="Shared" t="Include">
           <e p="_CookieConsentPartial.cshtml" t="Include" />
           <e p="_Layout.cshtml" t="Include" />
           <e p="_ValidationScriptsPartial.cshtml" t="Include" />
           <e p="Error.cshtml" t="Include" />
+          <e p="Info.cshtml" t="Include" />
           <e p="Table.cshtml" t="Include" />
           <e p="TableDefect.cshtml" t="Include" />
         </e>

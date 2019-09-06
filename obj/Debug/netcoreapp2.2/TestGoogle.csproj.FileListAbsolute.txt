@@ -32,3 +32,6 @@ D:\GitFolders\Programming\Twente\TestGoogle\obj\Debug\netcoreapp2.2\Razor\Views\
 D:\GitFolders\Programming\Twente\TestGoogle\obj\Debug\netcoreapp2.2\Razor\Views\Home\Summery.g.cshtml.cs
 D:\GitFolders\Programming\Twente\TestGoogle\obj\Debug\netcoreapp2.2\Razor\Views\Home\AllData.g.cshtml.cs
 D:\GitFolders\Programming\Twente\TestGoogle\obj\Debug\netcoreapp2.2\Razor\Views\Shared\TableDefect.g.cshtml.cs
+D:\GitFolders\Programming\Twente\TestGoogle\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Info.g.cshtml.cs
+D:\GitFolders\Programming\Twente\TestGoogle\obj\Debug\netcoreapp2.2\Razor\Views\Report\StaticData.g.cshtml.cs
+D:\GitFolders\Programming\Twente\TestGoogle\obj\Debug\netcoreapp2.2\Razor\Views\Report\StaticMap.g.cshtml.cs

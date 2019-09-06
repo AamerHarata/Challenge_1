@@ -51,35 +51,11 @@
     
     <h1 class="display-4" style="font-size: 2.5rem; margin-bottom: 1rem;">Listening for Defects</h1>
     
-    <div class="defect-div" style="background-color: white">
-            
+    <div id="info-container">
         
-        <div class="row">
-            <div class="col-9">
-                <table class="table defect-table">
-
-                    <tr>
-                        <th>Holes Found:</th><td>0</td>
-                        <th>Bumps Found:</th><td>0</td>
-                        <th>Total:</th><td>0</td>
-                        
-                    </tr>
-                    <tr>
-                        <th>Mobile Timer: </th><td>1.13 min</td>
-                        <th>Current Accelerometer: </th><td>X - Y - Z</td>
-                        <th>Current Location: </th><td>Lat: 2, Lang: 2</td>
-
-
-                    </tr>
-
-                </table>
-            </div>
-            
-            
-            <div class="col-3">PICTURE</div>
-        </div>
-            
     </div>
+    
+    <input id="testNumber" hidden="true"/>
     
     <div id="table-container">
         
@@ -92,10 +68,18 @@
 {
     
     <script>
-        let keepAlive = true;
+        
         $(document).ready(function() {
 
             setInterval(function() { getDbData(); }, 3000);
+            setInterval(function() { getInfo(); }, 3000);
+            setInterval(function() { testDefect(); }, 5000);
+            function testDefect() {
+                $.ajax({
+                    type: "GET",
+                    url: "/TestDefect"
+                });
+            }
 
             
 
@@ -103,20 +87,28 @@
             function getDbData() {
                 $.get("/ReceiveDefect",
                     function(response) {
+                        $("#table-container").html($(response));
 
-                        if (keepAlive) {
-                            $("#table-container").html($(response));
                         
-//                            $("html, body").animate({ scrollTop: $(document).height() }, 2500);
+                    });
+            }
+            
+            function getInfo() {
+                $.get("/ReceiveData",
+                    function(response) {
+                        const testNumber = $($(response).find(".testNumber")).attr("testNr");
+                        
+                        if (testNumber !== 0 && testNumber !== undefined) {
+                            $.get("/ReceiveInfo/" + testNumber,
+                                function(resp) {
+                                    $("#info-container").html($(resp));
+                                });
                         }
                         
                     });
             }
 
-            $("#stop").click(function() {
-                keepAlive = false;
-                return false;
-            });
+            
 
 
         });

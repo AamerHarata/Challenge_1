@@ -29,6 +29,16 @@ namespace TestGoogle.Controllers
             
             return PartialView("Table", collectedData);
         }
+
+        [Route("/ReceiveInfo/{testNumber?}")]
+        public IActionResult Info(int testNumber)
+        {
+            if(testNumber == 0)
+                return Ok();
+
+            ViewBag.testNumber = testNumber;
+            return PartialView("Info");
+        }
         
         [Route("/ReceiveDefect")]
         public IActionResult Defect()
@@ -41,35 +51,59 @@ namespace TestGoogle.Controllers
             return PartialView("TableDefect", collectedDefects);
         }
 
-        private void TestDefect()
+        [Route("/TestDefect")]
+        public void TestDefect()
         {
             var possibles = _context.Possibles.Where(x => !x.Tested).ToList();
-
+            var allData = _context.MobileData.OrderBy(x=>x.DateTime).ToList();
+            
             foreach (var pos in possibles)
             {
                 pos.Tested = true;
                 _context.Update(pos);
                 _context.SaveChanges();
-                
-                var prev = _context.MobileData.Where(x => x.DateTime < pos.Time && (x.DateTime > pos.Time.Subtract(new TimeSpan(0, 0, 1)))).ToList();
 
-//                var prev = _context.MobileData.Where(x => x.DateTime > pos.Time.Subtract(new TimeSpan(0, 0, 10)));
-//                Console.Write(prev);
-                foreach (var pr in prev)
+                for (var i = 12; i < allData.Count; i++)
                 {
-                    if (double.Parse(pr.zAco) > 12 || double.Parse(pr.zAco) < 4)
+                    var added = true;
+                    
+                    if (allData[i].Id != pos.Id) continue;
+                    
+                    var tempList = new List<MobileData>();
+                    
+                    for(var j = i-1; j != i-10 ; j--)
+                        tempList.Add(allData[j]);
+
+
+                    if (tempList.Any(x=>double.Parse(x.zAco) > 12) || tempList.Any(x=>double.Parse(x.zAco) < 4) || !tempList.Any())
                     {
-                        continue;
+                        
+                    }
+                    else
+                    {
+                        var defect = new Defect()
+                        {
+                            Id = allData[i].Id, xAco = allData[i].xAco, yAco = allData[i].yAco, zAco = allData[i].zAco, Time = allData[i].DateTime, TestNumber = allData[i].TestNumber,
+                            xGeo = allData[i].xGeo, yGeo = allData[i].yGeo, DefType = pos.Type
+                        };
+
+                        try
+                        {
+                            _context.Add(defect);
+                        }
+                        catch (Exception e)
+                        {
+                            
+                        }
+                        _context.SaveChanges();
                     }
                     
-                    var defect = new Defect()
-                    {
-                        xAco = pos.xAco, yAco = pos.yAco, zAco = pos.zAco, Time = pos.Time, TestNumber = pos.TestNumber
-                    };
+                    
+                   
 
-                    _context.Add(defect);
-                    _context.SaveChanges();
+                    
                 }
+                
 
             }
             

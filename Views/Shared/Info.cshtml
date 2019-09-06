@@ -1,0 +1,43 @@
+@using TestGoogle.Services
+@inject ITestService TestService
+
+<div class="defect-div" style="background-color: white">
+            
+    @{ var testNumber = ViewBag.testNumber;}
+    <div class="row" style="font-size: 0.9rem;">
+        <div class="col-9">
+            <table class="table defect-table">
+                @{
+                    var bumps = TestService.CountBumps(testNumber);
+                    var hols = TestService.CountHoles(testNumber);
+                }
+
+                <tr>
+                    <th>Start Time: </th><td>@TestService.GetStartEndTime(testNumber)[0].ToString(@"hh\:mm")</td>
+                    <th>Holes Found: </th><td>@hols</td>
+                    <th>Bumps Found:</th><td>@bumps</td>
+                    <th>Total:</th><td>@(hols+bumps)</td>
+
+                </tr>
+                <tr>
+                    @{
+                        var aco = TestService.GetAco(testNumber);
+                        var geo = TestService.GetGeo(testNumber);
+                        var timing = TestService.GetStartEndTime(testNumber);
+                    }
+                    <th>Mobile Timer: </th><td>@Math.Round(((timing[1] - timing[0]).TotalMinutes), 2) Minutes</td>
+                    <th>Current Accelerometer: </th><td>X: @aco[0] - Y: @aco[1] - Z: @aco[2]</td>
+                    <th colspan="2">Current Location: </th><td>Lat: @geo[0], Lang: @geo[1]</td>
+
+
+                </tr>
+
+            </table>
+        </div>
+            
+            
+        <div class="col-3"><img src="https://maps.googleapis.com/maps/api/staticmap?
+         center=@geo[0],@geo[1]&zoom=16&size=150x150&scale=1&maptype=roadmap\&markers=color:yellow%7Clabel:M%7C @geo[0],@geo[1]&key=AIzaSyC0mLIcD6TdgT0xuRJ3BxU9eD86nWf7Da4"/></div>
+    </div>
+            
+</div>

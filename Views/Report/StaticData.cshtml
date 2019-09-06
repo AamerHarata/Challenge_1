@@ -1,0 +1,56 @@
+@model IEnumerable<MobileData>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div><h4>University of Twente</h4></div>
+    <div><h6>Challenge_1 Group_4</h6></div>
+    <hr/>
+    <h1 class="display-4" style="font-size: 2.5rem;">Static Data from Test: @ViewBag.testNumber</h1>
+    <h1 class="display-4" style="font-size: 1.5rem;">Data Collected: @Model.Count()</h1>
+</div>
+    
+    @if (!Model.Any())
+    {
+        <div>No Test Found!</div>
+    }
+    else
+    {
+        <table id="table-container" class="table table-hover text-center">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Acc - X</th>
+                <th>Acc - Y</th>
+                <th>Acc - Z</th>
+                <th>Geo - X</th>
+                <th>Geo - Y</th>
+                <th>Test Nr.</th>
+            </tr>
+            </thead>
+    
+    
+            @{ var i = 1;}
+            @foreach (var mobileDate in Model)
+            {
+                <tr class="testNumber" testNr="@mobileDate.TestNumber">
+                    <td>@i</td>
+                    <td>@mobileDate.xAco</td>
+                    <td>@mobileDate.yAco</td>
+                    <td>@mobileDate.zAco</td>
+                    <td>@mobileDate.xGeo</td>
+                    <td>@mobileDate.yGeo</td>
+                    <td>@mobileDate.TestNumber</td>
+                </tr>
+                i++;
+            }
+        </table>
+    }
+    
+    
+    
+
+
+

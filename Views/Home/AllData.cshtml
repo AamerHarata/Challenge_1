@@ -8,7 +8,7 @@
     <hr/>
     
     <h1 class="display-4">Data test from phone</h1>
-    <button style="margin-bottom: 1rem" class="btn btn-danger" onclick="location.href='@Url.Action("DeleteAll")'">Delete All</button>
+    <button style="margin-bottom: 1rem" class="btn btn-danger" onclick="location.href='@Url.Action("DeleteAll")'">Delete All (Everything)</button>
     
     <div id="table-container">
         
@@ -21,7 +21,7 @@
 {
     
     <script>
-        let keepAlive = true;
+        
         $(document).ready(function() {
 
             setInterval(function() { getDbData(); }, 3000);
@@ -33,18 +33,15 @@
                 $.get("/ReceiveData",
                     function(response) {
 
-                        if (keepAlive) {
+                        
                             $("#table-container").html($(response));
                         
-                        }
+                        
                         
                     });
             }
 
-            $("#stop").click(function() {
-                keepAlive = false;
-                return false;
-            });
+            
 
 
         });

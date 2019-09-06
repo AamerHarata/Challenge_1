@@ -25,12 +25,15 @@ namespace TestGoogle.API
             {
                 xAco = xAco, yAco = yAco, zAco = zAco, xGeo = xGeo, yGeo = yGeo, TestNumber = testNumber
             };
+            
+            await _context.AddAsync(result);
+            await _context.SaveChangesAsync();
 
             if (double.Parse(zAco) > 12)
             {
                 var posible = new Possible()
                 {
-                    xAco = xAco, yAco = yAco,zAco = zAco,xGeo = xGeo, yGeo = yGeo, TestNumber = testNumber, Type = DefType.Hole
+                    Id = result.Id, xAco = xAco, yAco = yAco,zAco = zAco,xGeo = xGeo, yGeo = yGeo, TestNumber = testNumber, Type = DefType.Hole
                 };
 
                 await _context.AddAsync(posible);
@@ -39,15 +42,14 @@ namespace TestGoogle.API
             {
                 var posible = new Possible()
                 {
-                    xAco = xAco, yAco = yAco,zAco = zAco,xGeo = xGeo, yGeo = yGeo, TestNumber = testNumber, Type = DefType.Bump
+                    Id = result.Id, xAco = xAco, yAco = yAco,zAco = zAco,xGeo = xGeo, yGeo = yGeo, TestNumber = testNumber, Type = DefType.Bump
                 };
 
                 await _context.AddAsync(posible);
                 await _context.SaveChangesAsync();
             }
 
-            await _context.AddAsync(result);
-            await _context.SaveChangesAsync();
+            
 
             return Ok(new {xAco, yAco, zAco});
         }

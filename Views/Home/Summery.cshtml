@@ -38,9 +38,9 @@ else
                  <thead>
                  <tr>
                      <th>Start Time:</th>
-                     <td>@test.StartTime.ToString(@"hh\:mm")</td>
+                     <td>@test.StartTime.Add(new TimeSpan(2,0,0)).ToString(@"hh\:mm")</td>
                      <th>End Time:</th>
-                     <td>@test.EndTime.ToString(@"hh\:mm")</td>
+                     <td>@test.EndTime.Add(new TimeSpan(2,0,0)).ToString(@"hh\:mm")</td>
                      <th>Period:</th>
                      <td>@Math.Round(((test.EndTime - test.StartTime).TotalMinutes), 2) Minutes</td>
                  </tr>
@@ -56,9 +56,9 @@ else
                  </tr>
                  
                  <tfoot class="text-center">
-                 <td colspan="2"><button class="btn btn-secondary">Show All Data</button></td>
-                 <td colspan="2"><button class="btn btn-info">Show Full Map</button></td>
-                 <td colspan="2"><button class="btn btn-danger">Delete Test</button></td>
+                 <td colspan="2"><button class="btn btn-secondary" onclick="location.href = '@Url.Action("StaticData","Report", new {testNumber = test.TestNumber})'">Show All Data</button></td>
+                 <td colspan="2"><button class="btn btn-info" onclick="location.href = '@Url.Action("StaticMap","Report", new {testNumber = test.TestNumber})'">Show Full Map</button></td>
+                 <td colspan="2"><button class="btn btn-danger" onclick="location.href = '@Url.Action("DeleteAll","Home", new {testNumber = test.TestNumber})'">Delete Test</button></td>
                  </tfoot>
              </table>
              

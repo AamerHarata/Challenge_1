@@ -1,0 +1,46 @@
+@using TestGoogle.Services
+@model IEnumerable<Defect>
+@inject ITestService TestService
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+    var testNumber = ViewBag.testNumber;
+}
+
+<div class="text-center">
+    <h1 class="display-4" style="font-size: 2.5rem;">Defects Map from Test: @ViewBag.testNumber</h1>
+    <h1 class="display-4" style="font-size: 1.5rem;">Bumps / Holes Found: @(TestService.CountHoles(testNumber) + TestService.CountBumps(testNumber) )</h1>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="text-center">No Defects Found! Therefore, No Map!</div>
+}
+else
+{
+    var markers = "";
+    var center = "";
+    foreach (var defect in Model)
+    {
+        if (defect.DefType == DefType.Bump)
+        {
+            markers += "&markers=color:red%7Clabel:B%7C "+defect.xGeo+","+defect.yGeo;
+        }
+        else
+        {
+            markers += "&markers=color:green%7Clabel:H%7C "+defect.xGeo+","+defect.yGeo;
+        }
+
+        center = defect.xGeo + "," + defect.yGeo;
+
+    }
+    
+    <div class="text-center"><img src="https://maps.googleapis.com/maps/api/staticmap?&style=visibility:on
+&style=feature:water%7Celement:geometry%7Cvisibility:on
+&style=feature:landscape%7Celement:geometry%7Cvisibility:on&
+         center=@center&zoom=auto&size=900x900&scale=1&maptype=roadmap\
+@markers
+&key=AIzaSyC0mLIcD6TdgT0xuRJ3BxU9eD86nWf7Da4"/>
+    </div>
+}
