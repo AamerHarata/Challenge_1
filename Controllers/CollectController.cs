@@ -71,7 +71,7 @@ namespace TestGoogle.Controllers
                     
                     var tempList = new List<MobileData>();
                     
-                    for(var j = i-1; j != i-3 ; j--)
+                    for(var j = i-1; j != i-10 ; j--)
                         tempList.Add(allData[j]);
 
 
