@@ -41,8 +41,16 @@ namespace TestGoogle.Controllers
             var allData = new List<MobileData>();
 
             allData = string.IsNullOrEmpty(testNumber) ? _context.MobileData.ToList() : _context.MobileData.Where(x=>x.TestNumber.ToString() == testNumber).ToList();
+
+            var defected = new List<Defect>();
+            defected = string.IsNullOrEmpty(testNumber) ? _context.Defects.ToList() : _context.Defects.Where(x => x.TestNumber.ToString() == testNumber).ToList();
+            
+            var possible = new List<Possible>();
+            possible = string.IsNullOrEmpty(testNumber) ? _context.Possibles.ToList() : _context.Possibles.Where(x => x.TestNumber.ToString() == testNumber).ToList();
             
             _context.RemoveRange(allData);
+            _context.RemoveRange(defected);
+            _context.RemoveRange(possible);
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }

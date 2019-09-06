@@ -54,5 +54,10 @@ namespace TestGoogle.Services
             
             return new List<double>(){double.Parse(result.xGeo), double.Parse(result.yGeo)};
         }
+
+        public int DataCount(int testNumber)
+        {
+            return _context.MobileData.Where(x => x.TestNumber == testNumber).ToList().Count;
+        }
     }
 }

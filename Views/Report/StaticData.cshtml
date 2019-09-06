@@ -22,6 +22,7 @@
             <thead>
             <tr>
                 <th>#</th>
+                <th>Time</th>
                 <th>Acc - X</th>
                 <th>Acc - Y</th>
                 <th>Acc - Z</th>
@@ -37,6 +38,7 @@
             {
                 <tr class="testNumber" testNr="@mobileDate.TestNumber">
                     <td>@i</td>
+                    <td>@mobileDate.DateTime.TimeOfDay.Add(new TimeSpan(2,0,0)).ToString(@"hh\:mm")</td>
                     <td>@mobileDate.xAco</td>
                     <td>@mobileDate.yAco</td>
                     <td>@mobileDate.zAco</td>

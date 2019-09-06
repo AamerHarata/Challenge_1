@@ -12,5 +12,6 @@ namespace TestGoogle.Services
         int CountBumps(int testNumber);
         List<double> GetAco(int testNumber);
         List<double> GetGeo(int testNumber);
+        int DataCount(int testNumber);
     }
 }

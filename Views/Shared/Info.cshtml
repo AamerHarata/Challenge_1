@@ -4,8 +4,8 @@
 <div class="defect-div" style="background-color: white">
             
     @{ var testNumber = ViewBag.testNumber;}
-    <div class="row" style="font-size: 0.9rem;">
-        <div class="col-9">
+    <div class="row" style="font-size: 0.9rem; width: 100%">
+        <div class="col-10">
             <table class="table defect-table">
                 @{
                     var bumps = TestService.CountBumps(testNumber);
@@ -27,7 +27,8 @@
                     }
                     <th>Mobile Timer: </th><td>@Math.Round(((timing[1] - timing[0]).TotalMinutes), 2) Minutes</td>
                     <th>Current Accelerometer: </th><td>X: @aco[0] - Y: @aco[1] - Z: @aco[2]</td>
-                    <th colspan="2">Current Location: </th><td>Lat: @geo[0], Lang: @geo[1]</td>
+                    <th>Data Collected:</th><td>@(TestService.DataCount(testNumber))</td>
+                    <th>Current Location: </th><td>Lat: @geo[0], Lang: @geo[1]</td>
 
 
                 </tr>
@@ -36,7 +37,7 @@
         </div>
             
             
-        <div class="col-3"><img src="https://maps.googleapis.com/maps/api/staticmap?
+        <div class="col-2"><img src="https://maps.googleapis.com/maps/api/staticmap?
          center=@geo[0],@geo[1]&zoom=16&size=150x150&scale=1&maptype=roadmap\&markers=color:yellow%7Clabel:M%7C @geo[0],@geo[1]&key=AIzaSyC0mLIcD6TdgT0xuRJ3BxU9eD86nWf7Da4"/></div>
     </div>
             
