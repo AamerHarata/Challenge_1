@@ -75,7 +75,7 @@ namespace TestGoogle.Controllers
                         tempList.Add(allData[j]);
 
 
-                    if (tempList.Any(x=>double.Parse(x.zAco) > 12) || tempList.Any(x=>double.Parse(x.zAco) < 4) || !tempList.Any())
+                    if (tempList.Any(x=>double.Parse(x.zAco) > 10) || tempList.Any(x=>double.Parse(x.zAco) < 5) || !tempList.Any())
                     {
                         
                     }

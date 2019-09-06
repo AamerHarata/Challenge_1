@@ -29,7 +29,7 @@ namespace TestGoogle.API
             await _context.AddAsync(result);
             await _context.SaveChangesAsync();
 
-            if (double.Parse(zAco) > 12)
+            if (double.Parse(zAco) > 20)
             {
                 var posible = new Possible()
                 {
@@ -38,7 +38,7 @@ namespace TestGoogle.API
 
                 await _context.AddAsync(posible);
                 await _context.SaveChangesAsync();
-            }else if (double.Parse(zAco) < 4)
+            }else if (double.Parse(zAco) < 2)
             {
                 var posible = new Possible()
                 {
