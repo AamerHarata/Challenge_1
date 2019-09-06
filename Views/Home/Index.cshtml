@@ -102,6 +102,7 @@
                             $.get("/ReceiveInfo/" + testNumber,
                                 function(resp) {
                                     $("#info-container").html($(resp));
+                                    $("#listen").css("display", "none");
                                 });
                         }
                         
