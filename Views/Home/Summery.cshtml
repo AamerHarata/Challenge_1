@@ -1,4 +1,6 @@
+@using TestGoogle.Services
 @model List<SummeryViewModel>
+@inject ITestService TestService
 
 @{
     ViewBag.Title = "Summary";
@@ -47,12 +49,16 @@ else
                  </thead>
                  
                  <tr>
+                     @{
+                         var bumps = TestService.CountBumps(test.TestNumber);
+                         var holes = @TestService.CountHoles(test.TestNumber);
+                     }
                      <th>Bumps:</th>
-                     <td>0</td>
+                     <td>@bumps</td>
                      <th>Holes:</th>
-                     <td>3</td>
+                     <td>@holes</td>
                      <th>Total:</th>
-                     <td>3</td>
+                     <td>@(holes+bumps)</td>
                  </tr>
                  
                  <tfoot class="text-center">

@@ -31,12 +31,12 @@ namespace TestGoogle.API
 
             if (double.Parse(zAco) > 20)
             {
-                var posible = new Possible()
+                var suspended = new Possible()
                 {
                     Id = result.Id, xAco = xAco, yAco = yAco,zAco = zAco,xGeo = xGeo, yGeo = yGeo, TestNumber = testNumber, Type = DefType.Hole
                 };
 
-                await _context.AddAsync(posible);
+                await _context.AddAsync(suspended);
                 await _context.SaveChangesAsync();
             }else if (double.Parse(zAco) < 2)
             {

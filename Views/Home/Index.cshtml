@@ -73,7 +73,8 @@
 
             setInterval(function() { getDbData(); }, 3000);
             setInterval(function() { getInfo(); }, 3000);
-            setInterval(function() { testDefect(); }, 5000);
+            setInterval(function() { testDefect(); }, 3000);
+            
             function testDefect() {
                 $.ajax({
                     type: "GET",
