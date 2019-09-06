@@ -58,7 +58,8 @@ else
                  <tfoot class="text-center">
                  <td colspan="2"><button class="btn btn-secondary" onclick="location.href = '@Url.Action("StaticData","Report", new {testNumber = test.TestNumber})'">Show All Data</button></td>
                  <td colspan="2"><button class="btn btn-info" onclick="location.href = '@Url.Action("StaticMap","Report", new {testNumber = test.TestNumber})'">Show Full Map</button></td>
-                 <td colspan="2"><button class="btn btn-danger" onclick="location.href = '@Url.Action("DeleteAll","Home", new {testNumber = test.TestNumber})'">Delete Test</button></td>
+                 <td colspan="1"><button class="btn btn-danger" onclick="location.href = '@Url.Action("DeleteAll","Home", new {testNumber = test.TestNumber})'">Delete Test</button></td>
+                 <td><button style="margin-bottom: 1rem" class="btn btn-success" onclick="location.href='@Url.Action("SaveData", new {testNumber = test.TestNumber})'">Save All Data</button></td>
                  </tfoot>
              </table>
              
