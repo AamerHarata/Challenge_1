@@ -19,6 +19,15 @@ namespace TestGoogle.Controllers
             
             return View(results);
         }
+
+
+        [Route("/Challenge_2/Delete/{testNr?}")]
+        public IActionResult Delete(int testNr)
+        {
+            _context.RemoveRange(_context.BluetoothLeDevices.ToList());
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
         
     }
 }

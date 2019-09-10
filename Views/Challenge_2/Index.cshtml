@@ -5,7 +5,7 @@
     Layout = "_Layout";
 }
 
-
+<button class="btn btn-danger">Delete All Data</button>
 <table class="table table-light">
     <tr>
         <th>testNr</th>
@@ -19,7 +19,7 @@
     @foreach (var bluetooth in Model)
     {
         <tr>
-            <tr>@bluetooth.TestNr</tr>
+            <td>@bluetooth.TestNr</td>
             <td>@bluetooth.NameofBeacon</td>
             <td>@bluetooth.Rssi</td>
             <td>@bluetooth.TxPower</td>

@@ -10,7 +10,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controllers/Challenge_2Controller.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -43,18 +43,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Views/Challenge_2/Index.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="315">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
               <folding>
-                <marker date="1568143584488" expanded="true" signature="39:96" ph="@..." />
-                <marker date="1568143584488" expanded="true" signature="99:578" ph="&lt;table.../&gt;" />
-                <marker date="1568143584488" expanded="true" signature="137:274" ph="&lt;tr.../&gt;" />
-                <marker date="1568143584488" expanded="true" signature="284:569" ph="@..." />
-                <marker date="1568143584488" expanded="true" signature="317:569" ph="{...}" />
-                <marker date="1568143584488" expanded="true" signature="332:563" ph="&lt;tr.../&gt;" />
+                <marker date="1568146816248" expanded="true" signature="39:96" ph="@..." />
+                <marker date="1568146816248" expanded="true" signature="99:641" ph="&lt;table.../&gt;" />
+                <marker date="1568146816248" expanded="true" signature="137:298" ph="&lt;tr.../&gt;" />
+                <marker date="1568146816248" expanded="true" signature="308:632" ph="@..." />
+                <marker date="1568146816248" expanded="true" signature="341:632" ph="{...}" />
+                <marker date="1568146816248" expanded="true" signature="356:626" ph="&lt;tr.../&gt;" />
               </folding>
             </state>
           </provider>
@@ -194,10 +194,10 @@
         <option value="$PROJECT_DIR$/API/Challenge_2.cs" />
         <option value="$PROJECT_DIR$/Data/ApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/Models/BluetoothLeDevices.cs" />
-        <option value="$PROJECT_DIR$/Views/Challenge_2/Index.cshtml" />
         <option value="$PROJECT_DIR$/Models/BluetoothLeDevice.cs" />
         <option value="$PROJECT_DIR$/API/Challenge_2API.cs" />
         <option value="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" />
+        <option value="$PROJECT_DIR$/Views/Challenge_2/Index.cshtml" />
       </list>
     </option>
   </component>
@@ -304,12 +304,12 @@
       <workItem from="1567590631527" duration="5700000" />
       <workItem from="1567691466249" duration="43735000" />
       <workItem from="1567753875729" duration="6121000" />
-      <workItem from="1568139498396" duration="4568000" />
+      <workItem from="1568139498396" duration="5194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89995000" />
+    <option name="totallyTimeSpent" value="90621000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -974,21 +974,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Challenge_2/Index.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding>
-            <marker date="1568143584488" expanded="true" signature="39:96" ph="@..." />
-            <marker date="1568143584488" expanded="true" signature="99:578" ph="&lt;table.../&gt;" />
-            <marker date="1568143584488" expanded="true" signature="137:274" ph="&lt;tr.../&gt;" />
-            <marker date="1568143584488" expanded="true" signature="284:569" ph="@..." />
-            <marker date="1568143584488" expanded="true" signature="317:569" ph="{...}" />
-            <marker date="1568143584488" expanded="true" signature="332:563" ph="&lt;tr.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/API/GetMobileData.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1058,6 +1043,21 @@
             <marker date="1568146323807" expanded="true" signature="161:548" ph="{...}" />
             <marker date="1568146323807" expanded="true" signature="290:343" ph="{...}" />
             <marker date="1568146323807" expanded="true" signature="381:533" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Challenge_2/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <marker date="1568146816248" expanded="true" signature="39:96" ph="@..." />
+            <marker date="1568146816248" expanded="true" signature="99:641" ph="&lt;table.../&gt;" />
+            <marker date="1568146816248" expanded="true" signature="137:298" ph="&lt;tr.../&gt;" />
+            <marker date="1568146816248" expanded="true" signature="308:632" ph="@..." />
+            <marker date="1568146816248" expanded="true" signature="341:632" ph="{...}" />
+            <marker date="1568146816248" expanded="true" signature="356:626" ph="&lt;tr.../&gt;" />
           </folding>
         </state>
       </provider>
