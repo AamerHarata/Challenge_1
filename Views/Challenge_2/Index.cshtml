@@ -1,0 +1,29 @@
+@model IEnumerable<BluetoothLeDevice>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+
+<table class="table table-light">
+    <tr>
+        <th>name</th>
+        <th>rssi</th>
+        <th>txpower</th>
+        <th>distance</th>
+        <th>is beacon?</th>
+    </tr>
+    
+    @foreach (var bluetooth in Model)
+    {
+        <tr>
+            <td>@bluetooth.NameofBeacon</td>
+            <td>@bluetooth.Rssi</td>
+            <td>@bluetooth.TxPower</td>
+            <td>@bluetooth.EstimatedDistance</td>
+            <td>@bluetooth.IsBeacon</td>
+        </tr>
+    }
+</table>
+

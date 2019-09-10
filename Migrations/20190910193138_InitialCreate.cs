@@ -8,6 +8,22 @@ namespace TestGoogle.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
+                name: "BluetoothLeDevices",
+                columns: table => new
+                {
+                    Id = table.Column<string>(nullable: false),
+                    NameofBeacon = table.Column<string>(nullable: true),
+                    Rssi = table.Column<int>(nullable: false),
+                    TxPower = table.Column<int>(nullable: false),
+                    EstimatedDistance = table.Column<string>(nullable: true),
+                    IsBeacon = table.Column<bool>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_BluetoothLeDevices", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Defects",
                 columns: table => new
                 {
@@ -27,7 +43,7 @@ namespace TestGoogle.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "MobileData",
+                name: "MobileDataBike",
                 columns: table => new
                 {
                     Id = table.Column<string>(nullable: false),
@@ -41,7 +57,7 @@ namespace TestGoogle.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_MobileData", x => x.Id);
+                    table.PrimaryKey("PK_MobileDataBike", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -68,10 +84,13 @@ namespace TestGoogle.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "BluetoothLeDevices");
+
+            migrationBuilder.DropTable(
                 name: "Defects");
 
             migrationBuilder.DropTable(
-                name: "MobileData");
+                name: "MobileDataBike");
 
             migrationBuilder.DropTable(
                 name: "Possibles");

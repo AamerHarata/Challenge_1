@@ -11,9 +11,11 @@ namespace TestGoogle.Data
         }
         
         
-        public DbSet<MobileData> MobileData { get; set; }
+        public DbSet<MobileData> MobileDataBike { get; set; }
         public DbSet<Defect> Defects { get; set; }
         public DbSet<Possible> Possibles { get; set; }
+        
+        public DbSet<BluetoothLeDevice> BluetoothLeDevices { get; set; }
         
     }
 }

@@ -24,7 +24,7 @@ namespace TestGoogle.Controllers
         public IActionResult Index()
         {
 
-            var collectedData = _context.MobileData.OrderByDescending(x => x.DateTime).ToList();
+            var collectedData = _context.MobileDataBike.OrderByDescending(x => x.DateTime).ToList();
 
             
             return PartialView("Table", collectedData);
@@ -55,7 +55,7 @@ namespace TestGoogle.Controllers
         public void TestDefect()
         {
             var possibles = _context.Possibles.Where(x => !x.Tested).ToList();
-            var allData = _context.MobileData.OrderBy(x=>x.DateTime).ToList();
+            var allData = _context.MobileDataBike.OrderBy(x=>x.DateTime).ToList();
             
             foreach (var pos in possibles)
             {

@@ -18,7 +18,7 @@ namespace TestGoogle.Services
         
         public List<TimeSpan> GetStartEndTime(int testNumber)
         {
-            var test = _context.MobileData.Where(x => x.TestNumber == testNumber).ToList();
+            var test = _context.MobileDataBike.Where(x => x.TestNumber == testNumber).ToList();
 
             var min = test.Min(x => x.DateTime);
             var max = test.Max(x => x.DateTime);
@@ -28,7 +28,7 @@ namespace TestGoogle.Services
 
         public List<MobileData> GetAllTestData(int testNumber)
         {
-            return _context.MobileData.Where(x => x.TestNumber == testNumber).ToList();
+            return _context.MobileDataBike.Where(x => x.TestNumber == testNumber).ToList();
         }
 
         public int CountHoles(int testNumber)
@@ -43,21 +43,21 @@ namespace TestGoogle.Services
 
         public List<double> GetAco(int testNumber)
         {
-            var result = _context.MobileData.Where(x => x.TestNumber == testNumber).OrderByDescending(x=>x.DateTime).Take(1).First();
+            var result = _context.MobileDataBike.Where(x => x.TestNumber == testNumber).OrderByDescending(x=>x.DateTime).Take(1).First();
             
             return new List<double>(){Math.Round(double.Parse(result.xAco), 3), Math.Round(double.Parse(result.yAco), 3), Math.Round(double.Parse(result.zAco),3)};
         }
         
         public List<double> GetGeo(int testNumber)
         {
-            var result = _context.MobileData.Where(x => x.TestNumber == testNumber).OrderByDescending(x=>x.DateTime).Take(1).First();
+            var result = _context.MobileDataBike.Where(x => x.TestNumber == testNumber).OrderByDescending(x=>x.DateTime).Take(1).First();
             
             return new List<double>(){double.Parse(result.xGeo), double.Parse(result.yGeo)};
         }
 
         public int DataCount(int testNumber)
         {
-            return _context.MobileData.Where(x => x.TestNumber == testNumber).ToList().Count;
+            return _context.MobileDataBike.Where(x => x.TestNumber == testNumber).ToList().Count;
         }
     }
 }

@@ -16,6 +16,26 @@ namespace TestGoogle.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "2.2.6-servicing-10079");
 
+            modelBuilder.Entity("TestGoogle.Models.BluetoothLeDevice", b =>
+                {
+                    b.Property<string>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("EstimatedDistance");
+
+                    b.Property<bool>("IsBeacon");
+
+                    b.Property<string>("NameofBeacon");
+
+                    b.Property<int>("Rssi");
+
+                    b.Property<int>("TxPower");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("BluetoothLeDevices");
+                });
+
             modelBuilder.Entity("TestGoogle.Models.Defect", b =>
                 {
                     b.Property<string>("Id")
@@ -63,7 +83,7 @@ namespace TestGoogle.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("MobileData");
+                    b.ToTable("MobileDataBike");
                 });
 
             modelBuilder.Entity("TestGoogle.Models.Possible", b =>

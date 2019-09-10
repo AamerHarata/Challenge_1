@@ -40,7 +40,7 @@ namespace TestGoogle.Controllers
         {
             var allData = new List<MobileData>();
 
-            allData = string.IsNullOrEmpty(testNumber) ? _context.MobileData.ToList() : _context.MobileData.Where(x=>x.TestNumber.ToString() == testNumber).ToList();
+            allData = string.IsNullOrEmpty(testNumber) ? _context.MobileDataBike.ToList() : _context.MobileDataBike.Where(x=>x.TestNumber.ToString() == testNumber).ToList();
 
             var defected = new List<Defect>();
             defected = string.IsNullOrEmpty(testNumber) ? _context.Defects.ToList() : _context.Defects.Where(x => x.TestNumber.ToString() == testNumber).ToList();
@@ -62,14 +62,14 @@ namespace TestGoogle.Controllers
             var fileName = "";
             
             if (string.IsNullOrEmpty(testNumber)){
-                result = _context.MobileData.OrderBy(x=>x.DateTime).ToList();
+                result = _context.MobileDataBike.OrderBy(x=>x.DateTime).ToList();
                 fileName = "AllData.csv";
             }
             
             
             else
             {
-                result = _context.MobileData.Where(x => x.TestNumber.ToString() == testNumber).OrderBy(x=>x.DateTime).ToList();
+                result = _context.MobileDataBike.Where(x => x.TestNumber.ToString() == testNumber).OrderBy(x=>x.DateTime).ToList();
                 fileName = "DataForTestNr-" + testNumber + ".csv";
             }
             
@@ -89,7 +89,7 @@ namespace TestGoogle.Controllers
         public IActionResult Summery()
         {
             var tests = new List<int>();
-            tests.AddRange(from b in _context.MobileData
+            tests.AddRange(from b in _context.MobileDataBike
                 group b by b.TestNumber
                 into g
                 select g.First().TestNumber);

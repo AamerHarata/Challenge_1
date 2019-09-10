@@ -26,7 +26,7 @@ namespace TestGoogle.Controllers
         public IActionResult StaticData(int testNumber)
         {
             ViewBag.testNumber = testNumber;
-            return View(_context.MobileData.Where(x=>x.TestNumber == testNumber).OrderBy(x=>x.DateTime).ToList());
+            return View(_context.MobileDataBike.Where(x=>x.TestNumber == testNumber).OrderBy(x=>x.DateTime).ToList());
         }
 
         public IActionResult StaticMap(int testNumber)

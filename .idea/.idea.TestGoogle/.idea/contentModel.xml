@@ -8,6 +8,7 @@
     <e p="D:\GitFolders\Programming\Twente\TestGoogle" t="IncludeRecursive">
       <e p=".env" t="Include" />
       <e p="API" t="Include">
+        <e p="Challenge_2API.cs" t="Include" />
         <e p="GetMobileData.cs" t="Include" />
       </e>
       <e p="app.db" t="Include" />
@@ -15,6 +16,7 @@
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include">
+        <e p="Challenge_2Controller.cs" t="Include" />
         <e p="CollectController.cs" t="Include" />
         <e p="HomeController.cs" t="Include" />
         <e p="Report.cs" t="Include" />
@@ -25,12 +27,8 @@
       </e>
       <e p="docker-compose.yml" t="Include" />
       <e p="Dockerfile" t="Include" />
-      <e p="Migrations" t="Include">
-        <e p="20190906032424_InitialCreate.cs" t="Include" />
-        <e p="20190906032424_InitialCreate.Designer.cs" t="Include" />
-        <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
-      </e>
       <e p="Models" t="Include">
+        <e p="BluetoothLeDevice.cs" t="Include" />
         <e p="Defect.cs" t="Include" />
         <e p="ErrorViewModel.cs" t="Include" />
         <e p="MobileData.cs" t="Include" />
@@ -59,6 +57,9 @@
       <e p="Views" t="Include">
         <e p="_ViewImports.cshtml" t="Include" />
         <e p="_ViewStart.cshtml" t="Include" />
+        <e p="Challenge_2" t="Include">
+          <e p="Index.cshtml" t="Include" />
+        </e>
         <e p="Home" t="Include">
           <e p="AllData.cshtml" t="Include" />
           <e p="Index.cshtml" t="Include" />
