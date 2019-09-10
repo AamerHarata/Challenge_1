@@ -13,6 +13,7 @@ namespace TestGoogle.Migrations
                 {
                     Id = table.Column<string>(nullable: false),
                     NameofBeacon = table.Column<string>(nullable: true),
+                    TestNr = table.Column<int>(nullable: false),
                     Rssi = table.Column<int>(nullable: false),
                     TxPower = table.Column<int>(nullable: false),
                     EstimatedDistance = table.Column<string>(nullable: true),

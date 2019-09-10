@@ -17,11 +17,11 @@ namespace TestGoogle.API
         
 
         [Route("/api/GetBluetoothDevices")]
-        public IActionResult GetBluetoothDevices(string name, int rssi, int txPower, string dist, bool isBeacon)
+        public IActionResult GetBluetoothDevices(string name, int rssi, int txPower, string dist, bool isBeacon,int testNr)
         {
             var bluetoothDevice = new BluetoothLeDevice()
             {
-                NameofBeacon = name, Rssi = rssi, TxPower = txPower, EstimatedDistance = dist,IsBeacon = isBeacon
+                NameofBeacon = name, Rssi = rssi, TxPower = txPower, EstimatedDistance = dist,IsBeacon = isBeacon, TestNr = testNr
             };
             _context.Add(bluetoothDevice);
             _context.SaveChanges();

@@ -15,7 +15,7 @@ namespace TestGoogle.Controllers
 
         public IActionResult Index()
         {
-            var results = _context.BluetoothLeDevices.ToList();
+            var results = _context.BluetoothLeDevices.OrderBy(x=>x.TestNr).ToList();
             
             return View(results);
         }

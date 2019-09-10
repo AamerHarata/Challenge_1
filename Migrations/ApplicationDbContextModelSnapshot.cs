@@ -29,6 +29,8 @@ namespace TestGoogle.Migrations
 
                     b.Property<int>("Rssi");
 
+                    b.Property<int>("TestNr");
+
                     b.Property<int>("TxPower");
 
                     b.HasKey("Id");

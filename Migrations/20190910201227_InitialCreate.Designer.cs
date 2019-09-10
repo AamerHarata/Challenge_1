@@ -9,7 +9,7 @@ using TestGoogle.Data;
 namespace TestGoogle.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190910193138_InitialCreate")]
+    [Migration("20190910201227_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -30,6 +30,8 @@ namespace TestGoogle.Migrations
                     b.Property<string>("NameofBeacon");
 
                     b.Property<int>("Rssi");
+
+                    b.Property<int>("TestNr");
 
                     b.Property<int>("TxPower");
 

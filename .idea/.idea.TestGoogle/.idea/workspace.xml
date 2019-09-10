@@ -2,38 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14865f10-9ce1-4004-9a21-b3ebfab6a346" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/API/Challenge_2API.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/BluetoothLeDevice.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Challenge_2/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Challenge_2/Index.g.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestGoogle/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestGoogle/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestGoogle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestGoogle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/CollectController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/CollectController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Report.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Report.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20190906032424_InitialCreate.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20190906032424_InitialCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Challenge_2API.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Challenge_2API.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20190910193138_InitialCreate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20190910193138_InitialCreate.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/TestService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/TestService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Home/AllData.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Home/AllData.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Home/Summery.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Home/Summery.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/TableDefect.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/TableDefect.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.RazorCoreGenerate.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/BluetoothLeDevice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/BluetoothLeDevice.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,34 +20,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Controllers/Challenge_2Controller.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            <state relative-caret-position="255">
+              <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
               <folding>
-                <marker date="1568143584511" expanded="true" signature="6:73" ph="..." />
-                <marker date="1568143584511" expanded="true" signature="107:529" ph="{...}" />
-                <marker date="1568143584511" expanded="true" signature="161:527" ph="{...}" />
-                <marker date="1568143584511" expanded="true" signature="290:343" ph="{...}" />
-                <marker date="1568143584511" expanded="true" signature="381:512" ph="{...}" />
+                <marker date="1568146323807" expanded="true" signature="6:73" ph="..." />
+                <marker date="1568146323807" expanded="true" signature="107:550" ph="{...}" />
+                <marker date="1568146323807" expanded="true" signature="161:548" ph="{...}" />
+                <marker date="1568146323807" expanded="true" signature="290:343" ph="{...}" />
+                <marker date="1568146323807" expanded="true" signature="381:533" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API/Challenge_2API.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="40" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="40" />
+            <state relative-caret-position="345">
+              <caret line="23" column="130" selection-start-line="23" selection-start-column="130" selection-end-line="23" selection-end-column="130" />
               <folding>
-                <marker date="1568143642193" expanded="true" signature="6:54" ph="..." />
-                <marker date="1568143642193" expanded="true" signature="105:877" ph="{...}" />
-                <marker date="1568143642193" expanded="true" signature="176:875" ph="{...}" />
-                <marker date="1568143642193" expanded="true" signature="307:359" ph="{...}" />
-                <marker date="1568143642193" expanded="true" signature="535:860" ph="{...}" />
-                <marker date="1568143642193" expanded="true" signature="616:745" ph="{...}" />
+                <marker date="1568146323794" expanded="true" signature="6:54" ph="..." />
+                <marker date="1568146323794" expanded="true" signature="105:905" ph="{...}" />
+                <marker date="1568146323794" expanded="true" signature="176:903" ph="{...}" />
+                <marker date="1568146323794" expanded="true" signature="307:359" ph="{...}" />
+                <marker date="1568146323794" expanded="true" signature="546:888" ph="{...}" />
+                <marker date="1568146323794" expanded="true" signature="627:773" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -118,11 +95,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Models/BluetoothLeDevice.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="9" selection-end-column="42" />
+            <state relative-caret-position="90">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
               <folding>
-                <marker date="1568143077283" expanded="true" signature="27:351" ph="{...}" />
-                <marker date="1568143077283" expanded="true" signature="64:349" ph="{...}" />
+                <marker date="1568146323817" expanded="true" signature="27:391" ph="{...}" />
+                <marker date="1568146323817" expanded="true" signature="64:389" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -228,8 +205,9 @@
         <option value="$PROJECT_DIR$/Data/ApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/Models/BluetoothLeDevices.cs" />
         <option value="$PROJECT_DIR$/Views/Challenge_2/Index.cshtml" />
-        <option value="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" />
+        <option value="$PROJECT_DIR$/Models/BluetoothLeDevice.cs" />
         <option value="$PROJECT_DIR$/API/Challenge_2API.cs" />
+        <option value="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" />
       </list>
     </option>
   </component>
@@ -336,12 +314,12 @@
       <workItem from="1567590631527" duration="5700000" />
       <workItem from="1567691466249" duration="43735000" />
       <workItem from="1567753875729" duration="6121000" />
-      <workItem from="1568139498396" duration="2800000" />
+      <workItem from="1568139498396" duration="4105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88227000" />
+    <option name="totallyTimeSpent" value="89532000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1005,6 +983,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Challenge_2/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <marker date="1568143584488" expanded="true" signature="39:96" ph="@..." />
+            <marker date="1568143584488" expanded="true" signature="99:578" ph="&lt;table.../&gt;" />
+            <marker date="1568143584488" expanded="true" signature="137:274" ph="&lt;tr.../&gt;" />
+            <marker date="1568143584488" expanded="true" signature="284:569" ph="@..." />
+            <marker date="1568143584488" expanded="true" signature="317:569" ph="{...}" />
+            <marker date="1568143584488" expanded="true" signature="332:563" ph="&lt;tr.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/API/GetMobileData.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1025,6 +1018,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Models/BluetoothLeDevice.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <marker date="1568146323817" expanded="true" signature="27:391" ph="{...}" />
+            <marker date="1568146323817" expanded="true" signature="64:389" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Data/ApplicationDbContext.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1038,57 +1042,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Models/BluetoothLeDevice.cs">
+    <entry file="file://$PROJECT_DIR$/API/Challenge_2API.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="345">
+          <caret line="23" column="130" selection-start-line="23" selection-start-column="130" selection-end-line="23" selection-end-column="130" />
           <folding>
-            <marker date="1568143077283" expanded="true" signature="27:351" ph="{...}" />
-            <marker date="1568143077283" expanded="true" signature="64:349" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Challenge_2/Index.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding>
-            <marker date="1568143584488" expanded="true" signature="39:96" ph="@..." />
-            <marker date="1568143584488" expanded="true" signature="99:578" ph="&lt;table.../&gt;" />
-            <marker date="1568143584488" expanded="true" signature="137:274" ph="&lt;tr.../&gt;" />
-            <marker date="1568143584488" expanded="true" signature="284:569" ph="@..." />
-            <marker date="1568143584488" expanded="true" signature="317:569" ph="{...}" />
-            <marker date="1568143584488" expanded="true" signature="332:563" ph="&lt;tr.../&gt;" />
+            <marker date="1568146323794" expanded="true" signature="6:54" ph="..." />
+            <marker date="1568146323794" expanded="true" signature="105:905" ph="{...}" />
+            <marker date="1568146323794" expanded="true" signature="176:903" ph="{...}" />
+            <marker date="1568146323794" expanded="true" signature="307:359" ph="{...}" />
+            <marker date="1568146323794" expanded="true" signature="546:888" ph="{...}" />
+            <marker date="1568146323794" expanded="true" signature="627:773" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/Challenge_2Controller.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="255">
+          <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
           <folding>
-            <marker date="1568143584511" expanded="true" signature="6:73" ph="..." />
-            <marker date="1568143584511" expanded="true" signature="107:529" ph="{...}" />
-            <marker date="1568143584511" expanded="true" signature="161:527" ph="{...}" />
-            <marker date="1568143584511" expanded="true" signature="290:343" ph="{...}" />
-            <marker date="1568143584511" expanded="true" signature="381:512" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/Challenge_2API.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="40" />
-          <folding>
-            <marker date="1568143642193" expanded="true" signature="6:54" ph="..." />
-            <marker date="1568143642193" expanded="true" signature="105:877" ph="{...}" />
-            <marker date="1568143642193" expanded="true" signature="176:875" ph="{...}" />
-            <marker date="1568143642193" expanded="true" signature="307:359" ph="{...}" />
-            <marker date="1568143642193" expanded="true" signature="535:860" ph="{...}" />
-            <marker date="1568143642193" expanded="true" signature="616:745" ph="{...}" />
+            <marker date="1568146323807" expanded="true" signature="6:73" ph="..." />
+            <marker date="1568146323807" expanded="true" signature="107:550" ph="{...}" />
+            <marker date="1568146323807" expanded="true" signature="161:548" ph="{...}" />
+            <marker date="1568146323807" expanded="true" signature="290:343" ph="{...}" />
+            <marker date="1568146323807" expanded="true" signature="381:533" ph="{...}" />
           </folding>
         </state>
       </provider>
