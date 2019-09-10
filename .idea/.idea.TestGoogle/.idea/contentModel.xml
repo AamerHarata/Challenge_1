@@ -27,6 +27,11 @@
       </e>
       <e p="docker-compose.yml" t="Include" />
       <e p="Dockerfile" t="Include" />
+      <e p="Migrations" t="Include">
+        <e p="20190910201227_InitialCreate.cs" t="Include" />
+        <e p="20190910201227_InitialCreate.Designer.cs" t="Include" />
+        <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
+      </e>
       <e p="Models" t="Include">
         <e p="BluetoothLeDevice.cs" t="Include" />
         <e p="Defect.cs" t="Include" />
