@@ -119,7 +119,7 @@ namespace TestGoogle.Controllers
                 list[n] = value;  
             }
             
-            var minDist = list.Take(3).ToList();
+            var minDist = list.OrderByDescending(x=>x.EstimatedDistance).Take(3).ToList();
             foreach (var device in minDist)
             {
                 var temp = _context.Beacons.SingleOrDefault(x => x.Name == device.NameofBeacon);
