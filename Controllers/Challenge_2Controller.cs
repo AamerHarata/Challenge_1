@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
@@ -121,6 +122,31 @@ namespace TestGoogle.Controllers
         public IActionResult Map()
         {
             return View();
+        }
+        
+        public bool AnyIntersection(double x1, double y1, double r1, double x2, double y2, double r2,double x3, double y3, double r3) {
+            //Calculate the distance between circles' centers
+
+            var d_1_2 = Math.Sqrt( sq2(x2 - x1) + sq2(y2 -y1));
+            var d_1_3 = Math.Sqrt( sq2(x3 - x1) + sq2(y3 - y1));
+            var d_2_3 = Math.Sqrt( sq2(x3 - x2) + sq2(y3 - y1));
+                
+            if (d_1_2 >= (r1 + r2))
+                return false;
+
+            if (d_1_3 >= (r1 + r3))
+                return false;
+
+            if (d_2_3 >= (r2 + r3))
+                return false;
+                
+
+            return true;
+        }
+
+        private double sq2(double nm)
+        {
+            return nm * nm;
         }
         
     }
