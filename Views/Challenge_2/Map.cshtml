@@ -296,12 +296,14 @@
                         const circ_2 = {x: response.b2.x, y: response.b2.y, r: response.b2.estimatedDistance}
                         const circ_3 = {x: response.b3.x, y: response.b3.y, r: response.b3.estimatedDistance}
                         
-                        while (!anyIntersection(circ_1, circ_2, circ_3)) {
-                            circ_1.estimatedDistance += 1;
-                            circ_2.estimatedDistance += 1;
-                            circ_3.estimatedDistance += 1;
+                        for (let i = 0; i < 10; i++) {
+                            if (!anyIntersection(circ_1, circ_2, circ_3)) {
+                                circ_1.estimatedDistance += 1;
+                                circ_2.estimatedDistance += 1;
+                                circ_3.estimatedDistance += 1;
 
-                        }  
+                            } 
+                        } 
                             var mobilePoint = getIntersection(circ_1, circ_2, circ_3);
                             setElementPos($(mobile), $(map), mobilePoint.x, mobilePoint.y);
                         
