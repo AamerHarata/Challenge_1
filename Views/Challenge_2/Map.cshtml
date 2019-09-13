@@ -24,10 +24,12 @@
             const map = $("#map");
             const mobile = $("#mobile-icon");
 
+            
 
 //            console.log(map.width());
-
-
+            
+            
+            
             function setElementPos(element, mapPic, x=0, y=0) {
 
                 const realWidth = $(mapPic).width();
@@ -35,20 +37,26 @@
 
                 x = realWidth * x / 50;
                 y = realHeight * y / 38;
-
-                let posX = $(mapPic).offset().left - $(element).width() / 2;
-                let posY = $(mapPic).offset().top - $(element).height() / 2 + realHeight;
+                
+                let posX = $(mapPic).offset().left - $(element).width()/2;
+                let posY = $(mapPic).offset().top - $(element).height()/2 + realHeight;
 
                 posX += x;
                 posY -= y;
                 $(element).css("top", posY).css("left", posX);
+                
 
+                
 
             }
 
-            setInterval(function() { $(mobile).fadeOut(500).fadeIn(500) }, 1500);
-
-
+            setInterval(function (){$(mobile).fadeOut(500).fadeIn(500)}, 1500);
+            
+            
+            
+            
+            
+            
             //Intersection AREA
 
 
@@ -58,22 +66,27 @@
 
 //            anyIntersection(circle_1, circle_3, circle_2);
 //            getIntersection(circle_1, circle_2, circle_3);
-            const circle_1 = { x: 73, y: 19, r: 6.33287 }
-            const circle_2 = { x: 83, y: 10, r: 10.90483 }
-            const circle_3 = { x: 85, y: 25, r: 9.3426 }
+            const circle_1 = {x: 73, y: 19, r: 6.33287}
+            const circle_2 = {x: 83, y: 10, r: 10.90483}
+            const circle_3 = {x: 85, y: 25, r: 9.3426}
 
-
+            
 //            anyIntersection(circle_1, circle_2, circle_3);
 //            getIntersection(circle_1, circle_2, circle_3);
 
+        
+            
+            
+            
+            
 
             function anyIntersection(src_1, src_2, src_3) {
                 //Calculate the distance between circles' centers
 
-                const d_1_2 = Math.sqrt(sq2(src_2.x - src_1.x) + sq2(src_2.y - src_1.y));
-                const d_1_3 = Math.sqrt(sq2(src_3.x - src_1.x) + sq2(src_3.y - src_1.y));
-                const d_2_3 = Math.sqrt(sq2(src_3.x - src_2.x) + sq2(src_3.y - src_2.y));
-
+                const d_1_2 = Math.sqrt( sq2(src_2.x - src_1.x) + sq2(src_2.y - src_1.y));
+                const d_1_3 = Math.sqrt( sq2(src_3.x - src_1.x) + sq2(src_3.y - src_1.y));
+                const d_2_3 = Math.sqrt( sq2(src_3.x - src_2.x) + sq2(src_3.y - src_2.y));
+                
                 if (d_1_2 >= (src_1.r + src_2.r))
                     return false;
 
@@ -82,83 +95,84 @@
 
                 if (d_2_3 >= (src_2.r + src_3.r))
                     return false;
-
+                
                 console.log("Intersection exist");
 
                 return true;
             }
-
+            
             function sq2(num) {
                 return num * num;
             }
-
+            
             function getIntersection(src_1, src_2, src_3) {
                 //Distance on x and y from scr_1 to scr_2
                 const d_x_1_2 = src_2.x - src_1.x;
                 const d_y_1_2 = src_2.y - src_1.y;
-
+                
                 //The same between the other circles
                 const d_x_1_3 = src_3.x - src_1.x;
                 const d_y_1_3 = src_3.y - src_1.y;
-
+                
                 const d_x_2_3 = src_3.x - src_2.x;
                 const d_y_2_3 = src_3.y - src_2.y;
-
-
+                
+                
                 //Distance between circles
-                const d_1_2 = Math.sqrt(sq2(src_2.x - src_1.x) + sq2(src_2.y - src_1.y));
-                const d_1_3 = Math.sqrt(sq2(src_3.x - src_1.x) + sq2(src_3.y - src_1.y));
-                const d_2_3 = Math.sqrt(sq2(src_3.x - src_2.x) + sq2(src_3.y - src_2.y));
-
-
+                const d_1_2 = Math.sqrt( sq2(src_2.x - src_1.x) + sq2(src_2.y - src_1.y));
+                const d_1_3 = Math.sqrt( sq2(src_3.x - src_1.x) + sq2(src_3.y - src_1.y));
+                const d_2_3 = Math.sqrt( sq2(src_3.x - src_2.x) + sq2(src_3.y - src_2.y));
+                
+                
                 //Distance between the center 1 and intersection point with line throw intersection
-                const a_1_2 = (sq2(src_1.r) - sq2(src_2.r) + sq2(d_1_2)) / (2.0 * d_1_2);
-                const a_1_3 = (sq2(src_1.r) - sq2(src_3.r) + sq2(d_1_3)) / (2.0 * d_1_3);
-                const a_2_3 = (sq2(src_2.r) - sq2(src_3.r) + sq2(d_2_3)) / (2.0 * d_2_3);
-
-
+                const a_1_2 = (sq2(src_1.r) - sq2(src_2.r) + sq2(d_1_2)) / (2.0 * d_1_2) ;
+                const a_1_3 = (sq2(src_1.r) - sq2(src_3.r) + sq2(d_1_3)) / (2.0 * d_1_3) ;
+                const a_2_3 = (sq2(src_2.r) - sq2(src_3.r) + sq2(d_2_3)) / (2.0 * d_2_3) ;
+                
+                
                 //Points inside intersection eclipse
-                const Eclipse_x_1_2 = src_1.x + (d_x_1_2 * a_1_2 / d_1_2);
-                const Eclipse_y_1_2 = src_1.y + (d_y_1_2 * a_1_2 / d_1_2);
-
-                const Eclipse_x_1_3 = src_1.x + (d_x_1_3 * a_1_3 / d_1_3);
-                const Eclipse_y_1_3 = src_1.y + (d_y_1_3 * a_1_3 / d_1_3);
-
-                const Eclipse_x_2_3 = src_2.x + (d_x_2_3 * a_2_3 / d_2_3);
-                const Eclipse_y_2_3 = src_2.y + (d_y_2_3 * a_2_3 / d_2_3);
-
-
+                const Eclipse_x_1_2 = src_1.x + (d_x_1_2 * a_1_2/d_1_2);
+                const Eclipse_y_1_2 = src_1.y + (d_y_1_2 * a_1_2/d_1_2);
+                
+                const Eclipse_x_1_3 = src_1.x + (d_x_1_3 * a_1_3/d_1_3);
+                const Eclipse_y_1_3 = src_1.y + (d_y_1_3 * a_1_3/d_1_3);
+                
+                const Eclipse_x_2_3 = src_2.x + (d_x_2_3 * a_2_3/d_2_3);
+                const Eclipse_y_2_3 = src_2.y + (d_y_2_3 * a_2_3/d_2_3);
+                
+                
+                
                 //Distance from point in eclipse to one of intersection points
                 const h_1_2 = Math.sqrt(sq2(src_1.r) - sq2(a_1_2));
                 const h_1_3 = Math.sqrt(sq2(src_1.r) - sq2(a_1_3));
                 const h_2_3 = Math.sqrt(sq2(src_2.r) - sq2(a_2_3));
-
-
+                
+                
                 //The offset of the intersection points from eclipse point
-                const offset_1_2_x = -d_y_1_2 * (h_1_2 / d_1_2);
-                const offset_1_2_y = d_x_1_2 * (h_1_2 / d_1_2);
-
-                const offset_1_3_x = -d_y_1_3 * (h_1_3 / d_1_3);
-                const offset_1_3_y = d_x_1_3 * (h_1_3 / d_1_3);
-
-                const offset_2_3_x = -d_y_2_3 * (h_2_3 / d_2_3);
-                const offset_2_3_y = d_x_2_3 * (h_2_3 / d_2_3);
-
-
+                const offset_1_2_x = -d_y_1_2 * (h_1_2/d_1_2);
+                const offset_1_2_y = d_x_1_2 * (h_1_2/d_1_2);
+                
+                const offset_1_3_x = -d_y_1_3 * (h_1_3/d_1_3);
+                const offset_1_3_y = d_x_1_3 * (h_1_3/d_1_3);
+                
+                const offset_2_3_x = -d_y_2_3 * (h_2_3/d_2_3);
+                const offset_2_3_y = d_x_2_3 * (h_2_3/d_2_3);
+                
+                
                 //Intersection points
-
+                
                 // BETWEEN CIRCLE 1 AND 2
                 const intersection_1_x_1_2 = Eclipse_x_1_2 + offset_1_2_x;
                 const intersection_1_y_1_2 = Eclipse_y_1_2 + offset_1_2_y;
                 const intersection_2_x_1_2 = Eclipse_x_1_2 - offset_1_2_x;
                 const intersection_2_y_1_2 = Eclipse_y_1_2 - offset_1_2_y;
-
+                
                 // BETWEEN CIRCLE 1 AND 3
                 const intersection_1_x_1_3 = Eclipse_x_1_3 + offset_1_3_x;
                 const intersection_1_y_1_3 = Eclipse_y_1_3 + offset_1_3_y;
                 const intersection_2_x_1_3 = Eclipse_x_1_3 - offset_1_3_x;
                 const intersection_2_y_1_3 = Eclipse_y_1_3 - offset_1_3_y;
-
+                
                 // BETWEEN CIRCLE 2 AND 3
                 const intersection_1_x_2_3 = Eclipse_x_2_3 + offset_2_3_x;
                 const intersection_1_y_2_3 = Eclipse_y_2_3 + offset_2_3_y;
@@ -181,70 +195,66 @@
 
                 const d_3_1 = Math.sqrt(sq2(src_3.x - intersection_1_x_1_2) + sq2(src_3.y - intersection_1_y_1_2));
                 const d_3_2 = Math.sqrt(sq2(src_3.x - intersection_2_x_1_2) + sq2(src_3.y - intersection_2_y_1_2));
-
+                
                 const d_2_1 = Math.sqrt(sq2(src_2.x - intersection_1_x_1_3) + sq2(src_2.y - intersection_1_y_1_3));
                 const d_2_2 = Math.sqrt(sq2(src_2.x - intersection_2_x_1_3) + sq2(src_2.y - intersection_2_y_1_3));
-
+                
                 const d_1_1 = Math.sqrt(sq2(src_1.x - intersection_1_x_2_3) + sq2(src_1.y - intersection_1_y_2_3));
                 const d_1_2_ = Math.sqrt(sq2(src_1.x - intersection_2_x_2_3) + sq2(src_1.y - intersection_2_y_2_3));
-
+                
 
                 //Choose the triangle points
                 let trianglePoint_1_x_B_1_2;
                 let trianglePoint_1_y_B_1_2;
-
+                
                 let trianglePoint_2_x_B_1_3;
                 let trianglePoint_2_y_B_1_3;
-
+                
                 let trianglePoint_3_x_B_2_3;
                 let trianglePoint_3_y_B_2_3;
-
-
+                
+                
+                
                 //Collect the correct point for intersection between 1 and 2
-                if (d_3_1 < d_3_2) {
+                if (d_3_1 < d_3_2){
                     trianglePoint_1_x_B_1_2 = intersection_1_x_1_2;
                     trianglePoint_1_y_B_1_2 = intersection_1_y_1_2;
-                } else {
+                }
+                else{
                     trianglePoint_1_x_B_1_2 = intersection_2_x_1_2;
                     trianglePoint_1_y_B_1_2 = intersection_2_y_1_2;
                 }
-
-
+                
+                
+                
                 //Collect the correct point for intersection between 1 and 3
-                if (d_2_1 < d_2_2) {
+                if (d_2_1 < d_2_2){
                     trianglePoint_2_x_B_1_3 = intersection_1_x_1_3;
                     trianglePoint_2_y_B_1_3 = intersection_1_y_1_3;
-                } else {
+                }
+                else{
                     trianglePoint_2_x_B_1_3 = intersection_2_x_1_3;
                     trianglePoint_2_y_B_1_3 = intersection_2_y_1_3;
                 }
-
-
+                
+                
                 //Collect the correct point for intersection between 2 and 3
-                if (d_1_1 < d_1_2_) {
+                if (d_1_1 < d_1_2_){
                     trianglePoint_3_x_B_2_3 = intersection_1_x_2_3;
                     trianglePoint_3_y_B_2_3 = intersection_1_y_2_3;
-                } else {
+                }
+                else{
                     trianglePoint_3_x_B_2_3 = intersection_2_x_2_3;
                     trianglePoint_3_y_B_2_3 = intersection_2_y_2_3;
                 }
-
-                console.log("Triangle Intersection between 1 and 2.. x: " +
-                    trianglePoint_1_x_B_1_2 +
-                    ", y: " +
-                    trianglePoint_1_y_B_1_2);
-                console.log("Triangle Intersection between 1 and 3.. x: " +
-                    trianglePoint_2_x_B_1_3 +
-                    ", y: " +
-                    trianglePoint_2_y_B_1_3);
-                console.log("Triangle Intersection between 2 and 3.. x: " +
-                    trianglePoint_3_x_B_2_3 +
-                    ", y: " +
-                    trianglePoint_3_y_B_2_3);
-
+                
+                console.log("Triangle Intersection between 1 and 2.. x: " + trianglePoint_1_x_B_1_2 + ", y: " + trianglePoint_1_y_B_1_2);
+                console.log("Triangle Intersection between 1 and 3.. x: " + trianglePoint_2_x_B_1_3 + ", y: " + trianglePoint_2_y_B_1_3);
+                console.log("Triangle Intersection between 2 and 3.. x: " + trianglePoint_3_x_B_2_3 + ", y: " + trianglePoint_3_y_B_2_3);
+                
                 const triangularPoint = {
-                    x: (trianglePoint_1_x_B_1_2 + trianglePoint_2_x_B_1_3 + trianglePoint_3_x_B_2_3) / 3,
-                    y: (trianglePoint_1_y_B_1_2 + trianglePoint_2_y_B_1_3 + trianglePoint_3_y_B_2_3) / 3
+                    x: (trianglePoint_1_x_B_1_2 + trianglePoint_2_x_B_1_3 + trianglePoint_3_x_B_2_3) /3,
+                    y: (trianglePoint_1_y_B_1_2 + trianglePoint_2_y_B_1_3 + trianglePoint_3_y_B_2_3) /3
                 }
 
                 console.log(triangularPoint);
@@ -252,7 +262,7 @@
 
 
             }
-
+            
 //            function calculateXY(x, y) {
 //                
 //                const realWidth = $(map).width();
@@ -269,9 +279,10 @@
 //                return {x: x, y: y}
 //            }
 
-            setInterval(function() { track(); }, 2000)
-
-
+                setInterval(function(){track();}, 2000)
+            
+            
+            
             //END OF Intersection AREA
 
 
@@ -280,26 +291,24 @@
                     type: "GET",
                     url: "/Challenge_2/GetDistance",
                     success: function(response) {
-
-                        const circ_1 = { x: response.b1.x, y: response.b1.y, r: response.b1.estimatedDistance }
-                        const circ_2 = { x: response.b2.x, y: response.b2.y, r: response.b2.estimatedDistance }
-                        const circ_3 = { x: response.b3.x, y: response.b3.y, r: response.b3.estimatedDistance }
-
-                        while (!anyIntersection(circ_1, circ_2, circ_3)) {
-                            circ_1.estimatedDistance ++;
-                            circ_2.estimatedDistance ++;
-                            circ_3.estimatedDistance ++;
+                        
+                        const circ_1 = {x: response.b1.x, y: response.b1.y, r: response.b1.estimatedDistance}
+                        const circ_2 = {x: response.b2.x, y: response.b2.y, r: response.b2.estimatedDistance}
+                        const circ_3 = {x: response.b3.x, y: response.b3.y, r: response.b3.estimatedDistance}
+                        
+                        if (!anyIntersection(circ_1, circ_2, circ_3)) {
+                            track();
                             
+                        } else {
+                            var mobilePoint = getIntersection(circ_1, circ_2, circ_3);
+                            setElementPos($(mobile), $(map), mobilePoint.x, mobilePoint.y);
                         }
-
-
-                        var mobilePoint = getIntersection(circ_1, circ_2, circ_3);
-                        setElementPos($(mobile), $(map), mobilePoint.x, mobilePoint.y);
+                        
 
 
 //                      
                     }
-
+                    
                 });
                 return true;
             }
@@ -307,12 +316,12 @@
 
         });
     </script>
-
+    
     @*     <script> *@
-    @*     var c = document.getElementById("myCanvas"); *@
-    @*     var ctx = c.getContext("2d"); *@
-    @*     ctx.beginPath(); *@
-    @*     ctx.arc(100, 75, 50, 0, 2 * Math.PI); *@
-    @*     ctx.stroke(); *@
-    @*     </script> *@
+@*     var c = document.getElementById("myCanvas"); *@
+@*     var ctx = c.getContext("2d"); *@
+@*     ctx.beginPath(); *@
+@*     ctx.arc(100, 75, 50, 0, 2 * Math.PI); *@
+@*     ctx.stroke(); *@
+@*     </script> *@
 }
