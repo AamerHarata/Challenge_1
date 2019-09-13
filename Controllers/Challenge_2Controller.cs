@@ -125,6 +125,8 @@ namespace TestGoogle.Controllers
                 var temp = _context.Beacons.SingleOrDefault(x => x.Name == device.NameofBeacon);
                 device.X = temp.X;
                 device.Y = temp.Y;
+                _context.Update(device);
+                _context.SaveChanges();
             }
             
             return Ok(new {B1 = minDist[0], B2 = minDist[1], B3 = minDist[2]});
