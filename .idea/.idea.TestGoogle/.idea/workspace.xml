@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14865f10-9ce1-4004-9a21-b3ebfab6a346" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestGoogle/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestGoogle/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestGoogle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestGoogle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Challenge_2API.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Challenge_2API.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/BluetoothLeDevice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/BluetoothLeDevice.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Challenge_2/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Challenge_2/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.RazorCoreGenerate.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Challenge_2/Map.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Challenge_2/Map.cshtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/Views/Challenge_2/Index.cshtml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
                 <marker date="1568158654540" expanded="true" signature="39:96" ph="@..." />
                 <marker date="1568158654540" expanded="true" signature="219:761" ph="&lt;table.../&gt;" />
@@ -89,29 +71,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Views/Challenge_2/Map.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="298" column="67" selection-start-line="298" selection-start-column="67" selection-end-line="298" selection-end-column="67" />
+            <state relative-caret-position="390">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
               <folding>
-                <marker date="1568370657278" expanded="true" signature="2:59" ph="@..." />
-                <marker date="1568370657278" expanded="true" signature="282:495" ph="@*...*@" />
-                <marker date="1568370657278" expanded="true" signature="497:661" ph="&lt;div.../&gt;" />
-                <marker date="1568370657278" expanded="true" signature="665:13479" ph="@{...}" />
-                <marker date="1568370657278" expanded="true" signature="688:13235" ph="&lt;script.../&gt;" />
-                <marker date="1568370657278" expanded="true" signature="734:13219" ph="{...}" />
-                <marker date="1568370657278" expanded="true" signature="1013:1553" ph="{...}" />
-                <marker date="1568370657278" expanded="true" signature="1747:2019" ph="/* const circle_1 = {x: 0, y: 0, r: 5} ... */" />
-                <marker date="1568370657278" expanded="true" signature="2202:2323" ph="/* anyIntersection(circle_1, circle_2, circle_3); ... */" />
-                <marker date="1568370657278" expanded="true" signature="2445:3169" ph="{...}" />
-                <marker date="1568370657278" expanded="true" signature="3213:3262" ph="{...}" />
-                <marker date="1568370657278" expanded="true" signature="3334:11396" ph="{...}" />
-                <marker date="1568370657278" expanded="true" signature="6005:6085" ph="/* Intersection points ... */" />
-                <marker date="1568370657278" expanded="true" signature="7106:8011" ph="/* console.log(&quot;Intersection 1 Between 1 and 2 is: (&quot;, ... */" />
-                <marker date="1568370657278" expanded="true" signature="11065:11293" ph="{...}" />
-                <marker date="1568370657278" expanded="true" signature="11410:11966" ph="/* function calculateXY(x, y) { ... */" />
-                <marker date="1568370657278" expanded="true" signature="12102:13207" ph="{...}" />
-                <marker date="1568370657278" expanded="true" signature="12127:13162" ph="{...}" />
-                <marker date="1568370657278" expanded="true" signature="12263:13123" ph="{...}" />
-                <marker date="1568370657278" expanded="true" signature="13245:13477" ph="@*...*@" />
+                <marker date="1568371288523" expanded="true" signature="2:59" ph="@..." />
+                <marker date="1568371288523" expanded="true" signature="282:495" ph="@*...*@" />
+                <marker date="1568371288523" expanded="true" signature="497:661" ph="&lt;div.../&gt;" />
+                <marker date="1568371288523" expanded="true" signature="665:13470" ph="@{...}" />
+                <marker date="1568371288523" expanded="true" signature="688:13226" ph="&lt;script.../&gt;" />
+                <marker date="1568371288523" expanded="true" signature="734:13210" ph="{...}" />
+                <marker date="1568371288523" expanded="true" signature="973:1513" ph="{...}" />
+                <marker date="1568371288523" expanded="true" signature="1707:1979" ph="/* const circle_1 = {x: 0, y: 0, r: 5} ... */" />
+                <marker date="1568371288523" expanded="true" signature="2162:2283" ph="/* anyIntersection(circle_1, circle_2, circle_3); ... */" />
+                <marker date="1568371288523" expanded="true" signature="2405:3129" ph="{...}" />
+                <marker date="1568371288523" expanded="true" signature="3173:3222" ph="{...}" />
+                <marker date="1568371288523" expanded="true" signature="3294:11356" ph="{...}" />
+                <marker date="1568371288523" expanded="true" signature="5965:6045" ph="/* Intersection points ... */" />
+                <marker date="1568371288523" expanded="true" signature="7066:7971" ph="/* console.log(&quot;Intersection 1 Between 1 and 2 is: (&quot;, ... */" />
+                <marker date="1568371288523" expanded="true" signature="11025:11253" ph="{...}" />
+                <marker date="1568371288523" expanded="true" signature="11370:11926" ph="/* function calculateXY(x, y) { ... */" />
+                <marker date="1568371288523" expanded="true" signature="12093:13198" ph="{...}" />
+                <marker date="1568371288523" expanded="true" signature="12118:13153" ph="{...}" />
+                <marker date="1568371288523" expanded="true" signature="12254:13114" ph="{...}" />
+                <marker date="1568371288523" expanded="true" signature="13236:13468" ph="@*...*@" />
               </folding>
             </state>
           </provider>
@@ -372,12 +354,12 @@
       <workItem from="1568196008412" duration="4861000" />
       <workItem from="1568223195637" duration="5047000" />
       <workItem from="1568275267834" duration="19400000" />
-      <workItem from="1568362462849" duration="7454000" />
+      <workItem from="1568362462849" duration="8084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127883000" />
+    <option name="totallyTimeSpent" value="128513000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -392,7 +374,7 @@
     <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28442574" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28442574" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -400,7 +382,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.0373599" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3524284" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3524284" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1111,7 +1093,7 @@
     <entry file="file://$PROJECT_DIR$/Views/Challenge_2/Index.cshtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding>
             <marker date="1568158654540" expanded="true" signature="39:96" ph="@..." />
             <marker date="1568158654540" expanded="true" signature="219:761" ph="&lt;table.../&gt;" />
@@ -1187,29 +1169,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Views/Challenge_2/Map.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="298" column="67" selection-start-line="298" selection-start-column="67" selection-end-line="298" selection-end-column="67" />
+        <state relative-caret-position="390">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
           <folding>
-            <marker date="1568370657278" expanded="true" signature="2:59" ph="@..." />
-            <marker date="1568370657278" expanded="true" signature="282:495" ph="@*...*@" />
-            <marker date="1568370657278" expanded="true" signature="497:661" ph="&lt;div.../&gt;" />
-            <marker date="1568370657278" expanded="true" signature="665:13479" ph="@{...}" />
-            <marker date="1568370657278" expanded="true" signature="688:13235" ph="&lt;script.../&gt;" />
-            <marker date="1568370657278" expanded="true" signature="734:13219" ph="{...}" />
-            <marker date="1568370657278" expanded="true" signature="1013:1553" ph="{...}" />
-            <marker date="1568370657278" expanded="true" signature="1747:2019" ph="/* const circle_1 = {x: 0, y: 0, r: 5} ... */" />
-            <marker date="1568370657278" expanded="true" signature="2202:2323" ph="/* anyIntersection(circle_1, circle_2, circle_3); ... */" />
-            <marker date="1568370657278" expanded="true" signature="2445:3169" ph="{...}" />
-            <marker date="1568370657278" expanded="true" signature="3213:3262" ph="{...}" />
-            <marker date="1568370657278" expanded="true" signature="3334:11396" ph="{...}" />
-            <marker date="1568370657278" expanded="true" signature="6005:6085" ph="/* Intersection points ... */" />
-            <marker date="1568370657278" expanded="true" signature="7106:8011" ph="/* console.log(&quot;Intersection 1 Between 1 and 2 is: (&quot;, ... */" />
-            <marker date="1568370657278" expanded="true" signature="11065:11293" ph="{...}" />
-            <marker date="1568370657278" expanded="true" signature="11410:11966" ph="/* function calculateXY(x, y) { ... */" />
-            <marker date="1568370657278" expanded="true" signature="12102:13207" ph="{...}" />
-            <marker date="1568370657278" expanded="true" signature="12127:13162" ph="{...}" />
-            <marker date="1568370657278" expanded="true" signature="12263:13123" ph="{...}" />
-            <marker date="1568370657278" expanded="true" signature="13245:13477" ph="@*...*@" />
+            <marker date="1568371288523" expanded="true" signature="2:59" ph="@..." />
+            <marker date="1568371288523" expanded="true" signature="282:495" ph="@*...*@" />
+            <marker date="1568371288523" expanded="true" signature="497:661" ph="&lt;div.../&gt;" />
+            <marker date="1568371288523" expanded="true" signature="665:13470" ph="@{...}" />
+            <marker date="1568371288523" expanded="true" signature="688:13226" ph="&lt;script.../&gt;" />
+            <marker date="1568371288523" expanded="true" signature="734:13210" ph="{...}" />
+            <marker date="1568371288523" expanded="true" signature="973:1513" ph="{...}" />
+            <marker date="1568371288523" expanded="true" signature="1707:1979" ph="/* const circle_1 = {x: 0, y: 0, r: 5} ... */" />
+            <marker date="1568371288523" expanded="true" signature="2162:2283" ph="/* anyIntersection(circle_1, circle_2, circle_3); ... */" />
+            <marker date="1568371288523" expanded="true" signature="2405:3129" ph="{...}" />
+            <marker date="1568371288523" expanded="true" signature="3173:3222" ph="{...}" />
+            <marker date="1568371288523" expanded="true" signature="3294:11356" ph="{...}" />
+            <marker date="1568371288523" expanded="true" signature="5965:6045" ph="/* Intersection points ... */" />
+            <marker date="1568371288523" expanded="true" signature="7066:7971" ph="/* console.log(&quot;Intersection 1 Between 1 and 2 is: (&quot;, ... */" />
+            <marker date="1568371288523" expanded="true" signature="11025:11253" ph="{...}" />
+            <marker date="1568371288523" expanded="true" signature="11370:11926" ph="/* function calculateXY(x, y) { ... */" />
+            <marker date="1568371288523" expanded="true" signature="12093:13198" ph="{...}" />
+            <marker date="1568371288523" expanded="true" signature="12118:13153" ph="{...}" />
+            <marker date="1568371288523" expanded="true" signature="12254:13114" ph="{...}" />
+            <marker date="1568371288523" expanded="true" signature="13236:13468" ph="@*...*@" />
           </folding>
         </state>
       </provider>
