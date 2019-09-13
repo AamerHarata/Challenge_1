@@ -108,7 +108,18 @@ namespace TestGoogle.Controllers
         public IActionResult GetDistance()
         {
             var list = _context.BluetoothLeDevices.OrderByDescending(x => x.DateTime).Take(10).ToList();
-            var minDist = list.OrderBy(x => x.EstimatedDistance).Take(3).ToList();
+            
+            int n = list.Count;
+            Random rng = new Random();
+            while (n > 1) {  
+                n--;  
+                int k = rng.Next(n + 1);  
+                var value = list[k];  
+                list[k] = list[n];  
+                list[n] = value;  
+            }
+            
+            var minDist = list.Take(3).ToList();
             foreach (var device in minDist)
             {
                 var temp = _context.Beacons.SingleOrDefault(x => x.Name == device.NameofBeacon);

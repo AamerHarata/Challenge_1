@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14865f10-9ce1-4004-9a21-b3ebfab6a346" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestGoogle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestGoogle/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/Challenge_2/Map.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Challenge_2/Map.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Challenge_2/Map.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Challenge_2/Map.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,25 +13,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Controllers/Challenge_2Controller.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="141" column="16" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="16" />
+            <state relative-caret-position="273">
+              <caret line="121" column="31" selection-start-line="121" selection-start-column="31" selection-end-line="121" selection-end-column="31" />
               <folding>
-                <marker date="1568375628189" expanded="true" signature="6:146" ph="..." />
-                <marker date="1568375628189" expanded="true" signature="180:9381" ph="{...}" />
-                <marker date="1568375628189" expanded="true" signature="234:9379" ph="{...}" />
-                <marker date="1568375628189" expanded="true" signature="363:416" ph="{...}" />
-                <marker date="1568375628189" expanded="true" signature="454:606" ph="{...}" />
-                <marker date="1568375628189" expanded="true" signature="692:7615" ph="{...}" />
-                <marker date="1568375628189" expanded="true" signature="760:7405" ph="{...}" />
-                <marker date="1568375628189" expanded="true" signature="7714:7894" ph="{...}" />
-                <marker date="1568375628189" expanded="true" signature="7982:8522" ph="{...}" />
-                <marker date="1568375628189" expanded="true" signature="8224:8419" ph="{...}" />
-                <marker date="1568375628189" expanded="true" signature="8558:8605" ph="{...}" />
-                <marker date="1568375628189" expanded="true" signature="8749:9277" ph="{...}" />
-                <marker date="1568375628189" expanded="true" signature="9316:9364" ph="{...}" />
+                <marker date="1568377402591" expanded="true" signature="6:146" ph="..." />
+                <marker date="1568377402591" expanded="true" signature="180:9665" ph="{...}" />
+                <marker date="1568377402591" expanded="true" signature="234:9663" ph="{...}" />
+                <marker date="1568377402591" expanded="true" signature="363:416" ph="{...}" />
+                <marker date="1568377402591" expanded="true" signature="454:606" ph="{...}" />
+                <marker date="1568377402591" expanded="true" signature="692:7615" ph="{...}" />
+                <marker date="1568377402591" expanded="true" signature="760:7405" ph="{...}" />
+                <marker date="1568377402591" expanded="true" signature="7714:7894" ph="{...}" />
+                <marker date="1568377402591" expanded="true" signature="7982:8806" ph="{...}" />
+                <marker date="1568377402591" expanded="true" signature="8208:8402" ph="{...}" />
+                <marker date="1568377402591" expanded="true" signature="8508:8703" ph="{...}" />
+                <marker date="1568377402591" expanded="true" signature="8842:8889" ph="{...}" />
+                <marker date="1568377402591" expanded="true" signature="9033:9561" ph="{...}" />
+                <marker date="1568377402591" expanded="true" signature="9600:9648" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -81,32 +72,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Views/Challenge_2/Map.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="305" column="86" selection-start-line="305" selection-start-column="86" selection-end-line="305" selection-end-column="86" />
+            <state relative-caret-position="228">
+              <caret line="298" column="26" selection-start-line="298" selection-start-column="24" selection-end-line="298" selection-end-column="26" />
               <folding>
-                <marker date="1568375764567" expanded="true" signature="2:59" ph="@..." />
-                <marker date="1568375764567" expanded="true" signature="282:495" ph="@*...*@" />
-                <marker date="1568375764567" expanded="true" signature="497:661" ph="&lt;div.../&gt;" />
-                <marker date="1568375764567" expanded="true" signature="665:13522" ph="@{...}" />
-                <marker date="1568375764567" expanded="true" signature="688:13278" ph="&lt;script.../&gt;" />
-                <marker date="1568375764567" expanded="true" signature="734:13262" ph="{...}" />
-                <marker date="1568375764567" expanded="true" signature="973:1513" ph="{...}" />
-                <marker date="1568375764567" expanded="true" signature="1707:1979" ph="/* const circle_1 = {x: 0, y: 0, r: 5} ... */" />
-                <marker date="1568375764567" expanded="true" signature="2162:2283" ph="/* anyIntersection(circle_1, circle_2, circle_3); ... */" />
-                <marker date="1568375764567" expanded="true" signature="2405:3129" ph="{...}" />
-                <marker date="1568375764567" expanded="true" signature="3173:3222" ph="{...}" />
-                <marker date="1568375764567" expanded="true" signature="3294:11356" ph="{...}" />
-                <marker date="1568375764567" expanded="true" signature="5965:6045" ph="/* Intersection points ... */" />
-                <marker date="1568375764567" expanded="true" signature="7066:7971" ph="/* console.log(&quot;Intersection 1 Between 1 and 2 is: (&quot;, ... */" />
-                <marker date="1568375764567" expanded="true" signature="11025:11253" ph="{...}" />
-                <marker date="1568375764567" expanded="true" signature="11370:11926" ph="/* function calculateXY(x, y) { ... */" />
-                <marker date="1568375764567" expanded="true" signature="12093:13250" ph="{...}" />
-                <marker date="1568375764567" expanded="true" signature="12118:13205" ph="{...}" />
-                <marker date="1568375764567" expanded="true" signature="12254:13166" ph="{...}" />
-                <marker date="1568375764567" expanded="true" signature="13288:13520" ph="@*...*@" />
+                <marker date="1568376905045" expanded="true" signature="2:59" ph="@..." />
+                <marker date="1568376905045" expanded="true" signature="282:495" ph="@*...*@" />
+                <marker date="1568376905045" expanded="true" signature="497:661" ph="&lt;div.../&gt;" />
+                <marker date="1568376905045" expanded="true" signature="665:13463" ph="@{...}" />
+                <marker date="1568376905045" expanded="true" signature="688:13219" ph="&lt;script.../&gt;" />
+                <marker date="1568376905045" expanded="true" signature="734:13203" ph="{...}" />
+                <marker date="1568376905045" expanded="true" signature="973:1513" ph="{...}" />
+                <marker date="1568376905045" expanded="true" signature="1707:1979" ph="/* const circle_1 = {x: 0, y: 0, r: 5} ... */" />
+                <marker date="1568376905045" expanded="true" signature="2162:2283" ph="/* anyIntersection(circle_1, circle_2, circle_3); ... */" />
+                <marker date="1568376905045" expanded="true" signature="2405:3129" ph="{...}" />
+                <marker date="1568376905045" expanded="true" signature="3173:3222" ph="{...}" />
+                <marker date="1568376905045" expanded="true" signature="3294:11356" ph="{...}" />
+                <marker date="1568376905045" expanded="true" signature="5965:6045" ph="/* Intersection points ... */" />
+                <marker date="1568376905045" expanded="true" signature="7066:7971" ph="/* console.log(&quot;Intersection 1 Between 1 and 2 is: (&quot;, ... */" />
+                <marker date="1568376905045" expanded="true" signature="11025:11253" ph="{...}" />
+                <marker date="1568376905045" expanded="true" signature="11370:11926" ph="/* function calculateXY(x, y) { ... */" />
+                <marker date="1568376905045" expanded="true" signature="12093:13191" ph="{...}" />
+                <marker date="1568376905045" expanded="true" signature="12118:13146" ph="{...}" />
+                <marker date="1568376905045" expanded="true" signature="12254:13107" ph="{...}" />
+                <marker date="1568376905045" expanded="true" signature="13229:13461" ph="@*...*@" />
               </folding>
             </state>
           </provider>
@@ -270,8 +261,8 @@
         <option value="$PROJECT_DIR$/Models/Beacon.cs" />
         <option value="$PROJECT_DIR$/API/Challenge_2API.cs" />
         <option value="$PROJECT_DIR$/Models/BluetoothLeDevice.cs" />
-        <option value="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" />
         <option value="$PROJECT_DIR$/Views/Challenge_2/Map.cshtml" />
+        <option value="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" />
       </list>
     </option>
   </component>
@@ -372,12 +363,12 @@
       <workItem from="1568196008412" duration="4861000" />
       <workItem from="1568223195637" duration="5047000" />
       <workItem from="1568275267834" duration="19400000" />
-      <workItem from="1568362462849" duration="11528000" />
+      <workItem from="1568362462849" duration="12645000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131957000" />
+    <option name="totallyTimeSpent" value="133074000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1152,53 +1143,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/Challenge_2Controller.cs">
+    <entry file="file://$PROJECT_DIR$/Views/Challenge_2/Map.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="141" column="16" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="16" />
+        <state relative-caret-position="228">
+          <caret line="298" column="26" selection-start-line="298" selection-start-column="24" selection-end-line="298" selection-end-column="26" />
           <folding>
-            <marker date="1568375628189" expanded="true" signature="6:146" ph="..." />
-            <marker date="1568375628189" expanded="true" signature="180:9381" ph="{...}" />
-            <marker date="1568375628189" expanded="true" signature="234:9379" ph="{...}" />
-            <marker date="1568375628189" expanded="true" signature="363:416" ph="{...}" />
-            <marker date="1568375628189" expanded="true" signature="454:606" ph="{...}" />
-            <marker date="1568375628189" expanded="true" signature="692:7615" ph="{...}" />
-            <marker date="1568375628189" expanded="true" signature="760:7405" ph="{...}" />
-            <marker date="1568375628189" expanded="true" signature="7714:7894" ph="{...}" />
-            <marker date="1568375628189" expanded="true" signature="7982:8522" ph="{...}" />
-            <marker date="1568375628189" expanded="true" signature="8224:8419" ph="{...}" />
-            <marker date="1568375628189" expanded="true" signature="8558:8605" ph="{...}" />
-            <marker date="1568375628189" expanded="true" signature="8749:9277" ph="{...}" />
-            <marker date="1568375628189" expanded="true" signature="9316:9364" ph="{...}" />
+            <marker date="1568376905045" expanded="true" signature="2:59" ph="@..." />
+            <marker date="1568376905045" expanded="true" signature="282:495" ph="@*...*@" />
+            <marker date="1568376905045" expanded="true" signature="497:661" ph="&lt;div.../&gt;" />
+            <marker date="1568376905045" expanded="true" signature="665:13463" ph="@{...}" />
+            <marker date="1568376905045" expanded="true" signature="688:13219" ph="&lt;script.../&gt;" />
+            <marker date="1568376905045" expanded="true" signature="734:13203" ph="{...}" />
+            <marker date="1568376905045" expanded="true" signature="973:1513" ph="{...}" />
+            <marker date="1568376905045" expanded="true" signature="1707:1979" ph="/* const circle_1 = {x: 0, y: 0, r: 5} ... */" />
+            <marker date="1568376905045" expanded="true" signature="2162:2283" ph="/* anyIntersection(circle_1, circle_2, circle_3); ... */" />
+            <marker date="1568376905045" expanded="true" signature="2405:3129" ph="{...}" />
+            <marker date="1568376905045" expanded="true" signature="3173:3222" ph="{...}" />
+            <marker date="1568376905045" expanded="true" signature="3294:11356" ph="{...}" />
+            <marker date="1568376905045" expanded="true" signature="5965:6045" ph="/* Intersection points ... */" />
+            <marker date="1568376905045" expanded="true" signature="7066:7971" ph="/* console.log(&quot;Intersection 1 Between 1 and 2 is: (&quot;, ... */" />
+            <marker date="1568376905045" expanded="true" signature="11025:11253" ph="{...}" />
+            <marker date="1568376905045" expanded="true" signature="11370:11926" ph="/* function calculateXY(x, y) { ... */" />
+            <marker date="1568376905045" expanded="true" signature="12093:13191" ph="{...}" />
+            <marker date="1568376905045" expanded="true" signature="12118:13146" ph="{...}" />
+            <marker date="1568376905045" expanded="true" signature="12254:13107" ph="{...}" />
+            <marker date="1568376905045" expanded="true" signature="13229:13461" ph="@*...*@" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Challenge_2/Map.cshtml">
+    <entry file="file://$PROJECT_DIR$/Controllers/Challenge_2Controller.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="305" column="86" selection-start-line="305" selection-start-column="86" selection-end-line="305" selection-end-column="86" />
+        <state relative-caret-position="273">
+          <caret line="121" column="31" selection-start-line="121" selection-start-column="31" selection-end-line="121" selection-end-column="31" />
           <folding>
-            <marker date="1568375764567" expanded="true" signature="2:59" ph="@..." />
-            <marker date="1568375764567" expanded="true" signature="282:495" ph="@*...*@" />
-            <marker date="1568375764567" expanded="true" signature="497:661" ph="&lt;div.../&gt;" />
-            <marker date="1568375764567" expanded="true" signature="665:13522" ph="@{...}" />
-            <marker date="1568375764567" expanded="true" signature="688:13278" ph="&lt;script.../&gt;" />
-            <marker date="1568375764567" expanded="true" signature="734:13262" ph="{...}" />
-            <marker date="1568375764567" expanded="true" signature="973:1513" ph="{...}" />
-            <marker date="1568375764567" expanded="true" signature="1707:1979" ph="/* const circle_1 = {x: 0, y: 0, r: 5} ... */" />
-            <marker date="1568375764567" expanded="true" signature="2162:2283" ph="/* anyIntersection(circle_1, circle_2, circle_3); ... */" />
-            <marker date="1568375764567" expanded="true" signature="2405:3129" ph="{...}" />
-            <marker date="1568375764567" expanded="true" signature="3173:3222" ph="{...}" />
-            <marker date="1568375764567" expanded="true" signature="3294:11356" ph="{...}" />
-            <marker date="1568375764567" expanded="true" signature="5965:6045" ph="/* Intersection points ... */" />
-            <marker date="1568375764567" expanded="true" signature="7066:7971" ph="/* console.log(&quot;Intersection 1 Between 1 and 2 is: (&quot;, ... */" />
-            <marker date="1568375764567" expanded="true" signature="11025:11253" ph="{...}" />
-            <marker date="1568375764567" expanded="true" signature="11370:11926" ph="/* function calculateXY(x, y) { ... */" />
-            <marker date="1568375764567" expanded="true" signature="12093:13250" ph="{...}" />
-            <marker date="1568375764567" expanded="true" signature="12118:13205" ph="{...}" />
-            <marker date="1568375764567" expanded="true" signature="12254:13166" ph="{...}" />
-            <marker date="1568375764567" expanded="true" signature="13288:13520" ph="@*...*@" />
+            <marker date="1568377402591" expanded="true" signature="6:146" ph="..." />
+            <marker date="1568377402591" expanded="true" signature="180:9665" ph="{...}" />
+            <marker date="1568377402591" expanded="true" signature="234:9663" ph="{...}" />
+            <marker date="1568377402591" expanded="true" signature="363:416" ph="{...}" />
+            <marker date="1568377402591" expanded="true" signature="454:606" ph="{...}" />
+            <marker date="1568377402591" expanded="true" signature="692:7615" ph="{...}" />
+            <marker date="1568377402591" expanded="true" signature="760:7405" ph="{...}" />
+            <marker date="1568377402591" expanded="true" signature="7714:7894" ph="{...}" />
+            <marker date="1568377402591" expanded="true" signature="7982:8806" ph="{...}" />
+            <marker date="1568377402591" expanded="true" signature="8208:8402" ph="{...}" />
+            <marker date="1568377402591" expanded="true" signature="8508:8703" ph="{...}" />
+            <marker date="1568377402591" expanded="true" signature="8842:8889" ph="{...}" />
+            <marker date="1568377402591" expanded="true" signature="9033:9561" ph="{...}" />
+            <marker date="1568377402591" expanded="true" signature="9600:9648" ph="{...}" />
           </folding>
         </state>
       </provider>
