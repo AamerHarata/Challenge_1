@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14865f10-9ce1-4004-9a21-b3ebfab6a346" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Views/Challenge_2/Map.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Challenge_2/Map.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,23 +12,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Controllers/Challenge_2Controller.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
+            <state relative-caret-position="25">
+              <caret line="109" column="65" selection-start-line="109" selection-start-column="65" selection-end-line="109" selection-end-column="65" />
               <folding>
-                <marker date="1568367971072" expanded="true" signature="6:132" ph="..." />
-                <marker date="1568367971072" expanded="true" signature="166:8520" ph="{...}" />
-                <marker date="1568367971072" expanded="true" signature="220:8518" ph="{...}" />
-                <marker date="1568367971072" expanded="true" signature="349:402" ph="{...}" />
-                <marker date="1568367971072" expanded="true" signature="440:592" ph="{...}" />
-                <marker date="1568367971072" expanded="true" signature="678:7513" ph="{...}" />
-                <marker date="1568367971072" expanded="true" signature="746:7303" ph="{...}" />
-                <marker date="1568367971072" expanded="true" signature="7612:7792" ph="{...}" />
-                <marker date="1568367971072" expanded="true" signature="7880:8420" ph="{...}" />
-                <marker date="1568367971072" expanded="true" signature="8122:8317" ph="{...}" />
-                <marker date="1568367971072" expanded="true" signature="8456:8503" ph="{...}" />
+                <marker date="1568372147932" expanded="true" signature="6:132" ph="..." />
+                <marker date="1568372147932" expanded="true" signature="166:8592" ph="{...}" />
+                <marker date="1568372147932" expanded="true" signature="220:8590" ph="{...}" />
+                <marker date="1568372147932" expanded="true" signature="349:402" ph="{...}" />
+                <marker date="1568372147932" expanded="true" signature="440:592" ph="{...}" />
+                <marker date="1568372147932" expanded="true" signature="678:7601" ph="{...}" />
+                <marker date="1568372147932" expanded="true" signature="746:7391" ph="{...}" />
+                <marker date="1568372147932" expanded="true" signature="7700:7880" ph="{...}" />
+                <marker date="1568372147932" expanded="true" signature="7968:8492" ph="{...}" />
+                <marker date="1568372147932" expanded="true" signature="8194:8389" ph="{...}" />
+                <marker date="1568372147932" expanded="true" signature="8528:8575" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -68,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Views/Challenge_2/Map.cshtml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
@@ -102,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Models/Beacon.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="30">
               <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
               <folding>
                 <marker date="1568363481465" expanded="true" signature="27:266" ph="{...}" />
@@ -252,8 +252,8 @@
         <option value="$PROJECT_DIR$/Models/Beacon.cs" />
         <option value="$PROJECT_DIR$/API/Challenge_2API.cs" />
         <option value="$PROJECT_DIR$/Models/BluetoothLeDevice.cs" />
-        <option value="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" />
         <option value="$PROJECT_DIR$/Views/Challenge_2/Map.cshtml" />
+        <option value="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" />
       </list>
     </option>
   </component>
@@ -354,12 +354,12 @@
       <workItem from="1568196008412" duration="4861000" />
       <workItem from="1568223195637" duration="5047000" />
       <workItem from="1568275267834" duration="19400000" />
-      <workItem from="1568362462849" duration="8084000" />
+      <workItem from="1568362462849" duration="8897000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128513000" />
+    <option name="totallyTimeSpent" value="129326000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,15 +374,15 @@
     <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28442574" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28442574" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0373599" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3524284" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40473226" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3524284" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -464,10 +464,10 @@
           <line>107</line>
           <properties documentPath="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" initialLine="107">
             <startOffsets>
-              <option value="7889" />
+              <option value="7977" />
             </startOffsets>
             <endOffsets>
-              <option value="7890" />
+              <option value="7978" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="13" />
@@ -1068,43 +1068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Models/Beacon.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <marker date="1568363481465" expanded="true" signature="27:266" ph="{...}" />
-            <marker date="1568363481465" expanded="true" signature="53:264" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/BluetoothLeDevice.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <marker date="1568367030467" expanded="true" signature="42:557" ph="{...}" />
-            <marker date="1568367030467" expanded="true" signature="79:555" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Challenge_2/Index.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <marker date="1568158654540" expanded="true" signature="39:96" ph="@..." />
-            <marker date="1568158654540" expanded="true" signature="219:761" ph="&lt;table.../&gt;" />
-            <marker date="1568158654540" expanded="true" signature="257:418" ph="&lt;tr.../&gt;" />
-            <marker date="1568158654540" expanded="true" signature="428:752" ph="@..." />
-            <marker date="1568158654540" expanded="true" signature="461:752" ph="{...}" />
-            <marker date="1568158654540" expanded="true" signature="476:746" ph="&lt;tr.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/API/GetMobileData.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1125,6 +1088,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/df/acd0682e/Thread.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/API/Challenge_2API.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1140,29 +1110,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/df/acd0682e/Thread.cs">
+    <entry file="file://$PROJECT_DIR$/Views/Challenge_2/Index.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/Challenge_2Controller.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
+        <state relative-caret-position="240">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding>
-            <marker date="1568367971072" expanded="true" signature="6:132" ph="..." />
-            <marker date="1568367971072" expanded="true" signature="166:8520" ph="{...}" />
-            <marker date="1568367971072" expanded="true" signature="220:8518" ph="{...}" />
-            <marker date="1568367971072" expanded="true" signature="349:402" ph="{...}" />
-            <marker date="1568367971072" expanded="true" signature="440:592" ph="{...}" />
-            <marker date="1568367971072" expanded="true" signature="678:7513" ph="{...}" />
-            <marker date="1568367971072" expanded="true" signature="746:7303" ph="{...}" />
-            <marker date="1568367971072" expanded="true" signature="7612:7792" ph="{...}" />
-            <marker date="1568367971072" expanded="true" signature="7880:8420" ph="{...}" />
-            <marker date="1568367971072" expanded="true" signature="8122:8317" ph="{...}" />
-            <marker date="1568367971072" expanded="true" signature="8456:8503" ph="{...}" />
+            <marker date="1568158654540" expanded="true" signature="39:96" ph="@..." />
+            <marker date="1568158654540" expanded="true" signature="219:761" ph="&lt;table.../&gt;" />
+            <marker date="1568158654540" expanded="true" signature="257:418" ph="&lt;tr.../&gt;" />
+            <marker date="1568158654540" expanded="true" signature="428:752" ph="@..." />
+            <marker date="1568158654540" expanded="true" signature="461:752" ph="{...}" />
+            <marker date="1568158654540" expanded="true" signature="476:746" ph="&lt;tr.../&gt;" />
           </folding>
         </state>
       </provider>
@@ -1192,6 +1150,48 @@
             <marker date="1568371288523" expanded="true" signature="12118:13153" ph="{...}" />
             <marker date="1568371288523" expanded="true" signature="12254:13114" ph="{...}" />
             <marker date="1568371288523" expanded="true" signature="13236:13468" ph="@*...*@" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Beacon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <marker date="1568363481465" expanded="true" signature="27:266" ph="{...}" />
+            <marker date="1568363481465" expanded="true" signature="53:264" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/BluetoothLeDevice.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <marker date="1568367030467" expanded="true" signature="42:557" ph="{...}" />
+            <marker date="1568367030467" expanded="true" signature="79:555" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/Challenge_2Controller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="109" column="65" selection-start-line="109" selection-start-column="65" selection-end-line="109" selection-end-column="65" />
+          <folding>
+            <marker date="1568372147932" expanded="true" signature="6:132" ph="..." />
+            <marker date="1568372147932" expanded="true" signature="166:8592" ph="{...}" />
+            <marker date="1568372147932" expanded="true" signature="220:8590" ph="{...}" />
+            <marker date="1568372147932" expanded="true" signature="349:402" ph="{...}" />
+            <marker date="1568372147932" expanded="true" signature="440:592" ph="{...}" />
+            <marker date="1568372147932" expanded="true" signature="678:7601" ph="{...}" />
+            <marker date="1568372147932" expanded="true" signature="746:7391" ph="{...}" />
+            <marker date="1568372147932" expanded="true" signature="7700:7880" ph="{...}" />
+            <marker date="1568372147932" expanded="true" signature="7968:8492" ph="{...}" />
+            <marker date="1568372147932" expanded="true" signature="8194:8389" ph="{...}" />
+            <marker date="1568372147932" expanded="true" signature="8528:8575" ph="{...}" />
           </folding>
         </state>
       </provider>
