@@ -8,15 +8,34 @@ namespace TestGoogle.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
+                name: "Beacons",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    MACAdress = table.Column<string>(nullable: true),
+                    X = table.Column<double>(nullable: false),
+                    Y = table.Column<double>(nullable: false),
+                    Name = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Beacons", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "BluetoothLeDevices",
                 columns: table => new
                 {
                     Id = table.Column<string>(nullable: false),
                     NameofBeacon = table.Column<string>(nullable: true),
                     TestNr = table.Column<int>(nullable: false),
-                    Rssi = table.Column<int>(nullable: false),
+                    Rssi = table.Column<double>(nullable: false),
+                    DateTime = table.Column<DateTime>(nullable: false),
                     TxPower = table.Column<int>(nullable: false),
-                    EstimatedDistance = table.Column<string>(nullable: true),
+                    X = table.Column<double>(nullable: false),
+                    Y = table.Column<double>(nullable: false),
+                    EstimatedDistance = table.Column<double>(nullable: false),
                     IsBeacon = table.Column<bool>(nullable: false)
                 },
                 constraints: table =>
@@ -84,6 +103,9 @@ namespace TestGoogle.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Beacons");
+
             migrationBuilder.DropTable(
                 name: "BluetoothLeDevices");
 

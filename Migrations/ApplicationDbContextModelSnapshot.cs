@@ -16,22 +16,46 @@ namespace TestGoogle.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "2.2.6-servicing-10079");
 
+            modelBuilder.Entity("TestGoogle.Models.Beacon", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("MACAdress");
+
+                    b.Property<string>("Name");
+
+                    b.Property<double>("X");
+
+                    b.Property<double>("Y");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Beacons");
+                });
+
             modelBuilder.Entity("TestGoogle.Models.BluetoothLeDevice", b =>
                 {
                     b.Property<string>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("EstimatedDistance");
+                    b.Property<DateTime>("DateTime");
+
+                    b.Property<double>("EstimatedDistance");
 
                     b.Property<bool>("IsBeacon");
 
                     b.Property<string>("NameofBeacon");
 
-                    b.Property<int>("Rssi");
+                    b.Property<double>("Rssi");
 
                     b.Property<int>("TestNr");
 
                     b.Property<int>("TxPower");
+
+                    b.Property<double>("X");
+
+                    b.Property<double>("Y");
 
                     b.HasKey("Id");
 

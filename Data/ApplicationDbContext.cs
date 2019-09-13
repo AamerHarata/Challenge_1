@@ -16,6 +16,7 @@ namespace TestGoogle.Data
         public DbSet<Possible> Possibles { get; set; }
         
         public DbSet<BluetoothLeDevice> BluetoothLeDevices { get; set; }
+        public DbSet<Beacon> Beacons { get; set; }
         
     }
 }

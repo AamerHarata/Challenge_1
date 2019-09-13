@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14865f10-9ce1-4004-9a21-b3ebfab6a346" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Views/Challenge_2/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Challenge_2/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestGoogle/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestGoogle/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestGoogle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestGoogle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Challenge_2API.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Challenge_2API.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/BluetoothLeDevice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/BluetoothLeDevice.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TestGoogle.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Challenge_2/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Challenge_2/Index.g.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TestGoogle.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,15 +33,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controllers/Challenge_2Controller.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+            <state relative-caret-position="180">
+              <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
               <folding>
-                <marker date="1568158552885" expanded="true" signature="6:73" ph="..." />
-                <marker date="1568158552885" expanded="true" signature="107:829" ph="{...}" />
-                <marker date="1568158552885" expanded="true" signature="161:827" ph="{...}" />
-                <marker date="1568158552885" expanded="true" signature="290:343" ph="{...}" />
-                <marker date="1568158552885" expanded="true" signature="381:533" ph="{...}" />
-                <marker date="1568158552885" expanded="true" signature="632:812" ph="{...}" />
+                <marker date="1568367971072" expanded="true" signature="6:132" ph="..." />
+                <marker date="1568367971072" expanded="true" signature="166:8520" ph="{...}" />
+                <marker date="1568367971072" expanded="true" signature="220:8518" ph="{...}" />
+                <marker date="1568367971072" expanded="true" signature="349:402" ph="{...}" />
+                <marker date="1568367971072" expanded="true" signature="440:592" ph="{...}" />
+                <marker date="1568367971072" expanded="true" signature="678:7513" ph="{...}" />
+                <marker date="1568367971072" expanded="true" signature="746:7303" ph="{...}" />
+                <marker date="1568367971072" expanded="true" signature="7612:7792" ph="{...}" />
+                <marker date="1568367971072" expanded="true" signature="7880:8420" ph="{...}" />
+                <marker date="1568367971072" expanded="true" signature="8122:8317" ph="{...}" />
+                <marker date="1568367971072" expanded="true" signature="8456:8503" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -32,25 +55,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API/Challenge_2API.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="130" selection-start-line="23" selection-start-column="130" selection-end-line="23" selection-end-column="130" />
+            <state relative-caret-position="270">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
-                <marker date="1568146323794" expanded="true" signature="6:54" ph="..." />
-                <marker date="1568146323794" expanded="true" signature="105:905" ph="{...}" />
-                <marker date="1568146323794" expanded="true" signature="176:903" ph="{...}" />
-                <marker date="1568146323794" expanded="true" signature="307:359" ph="{...}" />
-                <marker date="1568146323794" expanded="true" signature="546:888" ph="{...}" />
-                <marker date="1568146323794" expanded="true" signature="627:773" ph="{...}" />
+                <marker date="1568365963103" expanded="false" signature="6:79" ph="..." />
+                <marker date="1568365963103" expanded="true" signature="105:908" ph="{...}" />
+                <marker date="1568365963103" expanded="true" signature="176:906" ph="{...}" />
+                <marker date="1568365963103" expanded="true" signature="307:359" ph="{...}" />
+                <marker date="1568365963103" expanded="true" signature="549:891" ph="{...}" />
+                <marker date="1568365963103" expanded="true" signature="630:776" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Views/Challenge_2/Index.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="91" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
+            <state relative-caret-position="240">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
                 <marker date="1568158654540" expanded="true" signature="39:96" ph="@..." />
                 <marker date="1568158654540" expanded="true" signature="219:761" ph="&lt;table.../&gt;" />
@@ -63,13 +86,57 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Views/Challenge_2/Map.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="298" column="67" selection-start-line="298" selection-start-column="67" selection-end-line="298" selection-end-column="67" />
+              <folding>
+                <marker date="1568370657278" expanded="true" signature="2:59" ph="@..." />
+                <marker date="1568370657278" expanded="true" signature="282:495" ph="@*...*@" />
+                <marker date="1568370657278" expanded="true" signature="497:661" ph="&lt;div.../&gt;" />
+                <marker date="1568370657278" expanded="true" signature="665:13479" ph="@{...}" />
+                <marker date="1568370657278" expanded="true" signature="688:13235" ph="&lt;script.../&gt;" />
+                <marker date="1568370657278" expanded="true" signature="734:13219" ph="{...}" />
+                <marker date="1568370657278" expanded="true" signature="1013:1553" ph="{...}" />
+                <marker date="1568370657278" expanded="true" signature="1747:2019" ph="/* const circle_1 = {x: 0, y: 0, r: 5} ... */" />
+                <marker date="1568370657278" expanded="true" signature="2202:2323" ph="/* anyIntersection(circle_1, circle_2, circle_3); ... */" />
+                <marker date="1568370657278" expanded="true" signature="2445:3169" ph="{...}" />
+                <marker date="1568370657278" expanded="true" signature="3213:3262" ph="{...}" />
+                <marker date="1568370657278" expanded="true" signature="3334:11396" ph="{...}" />
+                <marker date="1568370657278" expanded="true" signature="6005:6085" ph="/* Intersection points ... */" />
+                <marker date="1568370657278" expanded="true" signature="7106:8011" ph="/* console.log(&quot;Intersection 1 Between 1 and 2 is: (&quot;, ... */" />
+                <marker date="1568370657278" expanded="true" signature="11065:11293" ph="{...}" />
+                <marker date="1568370657278" expanded="true" signature="11410:11966" ph="/* function calculateXY(x, y) { ... */" />
+                <marker date="1568370657278" expanded="true" signature="12102:13207" ph="{...}" />
+                <marker date="1568370657278" expanded="true" signature="12127:13162" ph="{...}" />
+                <marker date="1568370657278" expanded="true" signature="12263:13123" ph="{...}" />
+                <marker date="1568370657278" expanded="true" signature="13245:13477" ph="@*...*@" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Models/Beacon.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              <folding>
+                <marker date="1568363481465" expanded="true" signature="27:266" ph="{...}" />
+                <marker date="1568363481465" expanded="true" signature="53:264" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API/GetMobileData.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="30">
               <caret line="11" column="47" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="47" />
               <folding>
-                <marker date="1567776577101" expanded="true" signature="6:187" ph="..." />
+                <marker date="1567776577101" expanded="false" signature="6:187" ph="..." />
                 <marker date="1567776577101" expanded="true" signature="213:1992" ph="{...}" />
                 <marker date="1567776577101" expanded="true" signature="283:1990" ph="{...}" />
                 <marker date="1567776577101" expanded="true" signature="405:457" ph="{...}" />
@@ -88,26 +155,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Models/BluetoothLeDevice.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            <state relative-caret-position="210">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding>
-                <marker date="1568146323817" expanded="true" signature="27:391" ph="{...}" />
-                <marker date="1568146323817" expanded="true" signature="64:389" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/ApplicationDbContext.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="70" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
-              <folding>
-                <marker date="1568143363135" expanded="false" signature="6:61" ph="..." />
-                <marker date="1568143363135" expanded="true" signature="88:563" ph="{...}" />
-                <marker date="1568143363135" expanded="true" signature="140:561" ph="{...}" />
-                <marker date="1568143363135" expanded="true" signature="258:278" ph="{...}" />
+                <marker date="1568367030467" expanded="true" signature="42:557" ph="{...}" />
+                <marker date="1568367030467" expanded="true" signature="79:555" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -120,7 +172,21 @@
       <find>_context.Add(defect);</find>
       <find>Part</find>
       <find>date</find>
+      <find>h</find>
+      <find>r</find>
+      <find>i</find>
+      <find>console.l</find>
+      <find>getIntersection</find>
+      <find>&quot;</find>
+      <find>&quot; X=</find>
+      <find>anyIntersection</find>
     </findStrings>
+    <replaceStrings>
+      <replace>X</replace>
+      <replace>R</replace>
+      <replace>j</replace>
+      <replace>&quot;, X=</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -138,6 +204,7 @@
     <setting file="file://$PROJECT_DIR$/Services/DefType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Defect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Shared/TableDefect.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Challenge_2/Map.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Possible.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
@@ -153,10 +220,12 @@
     <setting file="file://$PROJECT_DIR$/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Report/StaticMap.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/df/acd0682e/Thread.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/Report.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/SummeryViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/TestService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/ITestService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Beacon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -195,12 +264,14 @@
         <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/Views/Home/Summery.cshtml" />
         <option value="$PROJECT_DIR$/API/Challenge_2.cs" />
-        <option value="$PROJECT_DIR$/Data/ApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/Models/BluetoothLeDevices.cs" />
-        <option value="$PROJECT_DIR$/Models/BluetoothLeDevice.cs" />
-        <option value="$PROJECT_DIR$/API/Challenge_2API.cs" />
-        <option value="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" />
         <option value="$PROJECT_DIR$/Views/Challenge_2/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Data/ApplicationDbContext.cs" />
+        <option value="$PROJECT_DIR$/Models/Beacon.cs" />
+        <option value="$PROJECT_DIR$/API/Challenge_2API.cs" />
+        <option value="$PROJECT_DIR$/Models/BluetoothLeDevice.cs" />
+        <option value="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" />
+        <option value="$PROJECT_DIR$/Views/Challenge_2/Map.cshtml" />
       </list>
     </option>
   </component>
@@ -216,7 +287,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -232,11 +303,6 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="TestGoogle" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="TestGoogle" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Data" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
@@ -244,17 +310,12 @@
               <item name="TestGoogle" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="TestGoogle" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,12 +368,16 @@
       <workItem from="1567590631527" duration="5700000" />
       <workItem from="1567691466249" duration="43735000" />
       <workItem from="1567753875729" duration="6121000" />
-      <workItem from="1568139498396" duration="5410000" />
+      <workItem from="1568139498396" duration="5694000" />
+      <workItem from="1568196008412" duration="4861000" />
+      <workItem from="1568223195637" duration="5047000" />
+      <workItem from="1568275267834" duration="19400000" />
+      <workItem from="1568362462849" duration="7454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90837000" />
+    <option name="totallyTimeSpent" value="127883000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -327,15 +392,15 @@
     <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2705953" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28442574" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0373599" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3524284" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0373599" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3524284" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -398,6 +463,32 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/API/Challenge_2API.cs</url>
+          <line>20</line>
+          <properties documentPath="$PROJECT_DIR$/API/Challenge_2API.cs" initialLine="20">
+            <startOffsets>
+              <option value="558" />
+            </startOffsets>
+            <endOffsets>
+              <option value="559" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Controllers/Challenge_2Controller.cs</url>
+          <line>107</line>
+          <properties documentPath="$PROJECT_DIR$/Controllers/Challenge_2Controller.cs" initialLine="107">
+            <startOffsets>
+              <option value="7889" />
+            </startOffsets>
+            <endOffsets>
+              <option value="7890" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -933,7 +1024,6 @@
           <caret line="73" column="46" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="46" />
           <folding>
             <marker date="1568142450912" expanded="false" signature="6:225" ph="..." />
-            <marker date="1568142450912" expanded="true" signature="259:3313" ph="{...}" />
             <marker date="1568142450912" expanded="true" signature="309:3311" ph="{...}" />
             <marker date="1568142450912" expanded="true" signature="476:528" ph="{...}" />
             <marker date="1568142450912" expanded="true" signature="598:790" ph="{...}" />
@@ -977,12 +1067,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wwwroot/images/Map.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wwwroot/images/CroppedMap.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/ApplicationDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <marker date="1568363452550" expanded="false" signature="6:61" ph="..." />
+            <marker date="1568363452550" expanded="true" signature="88:614" ph="{...}" />
+            <marker date="1568363452550" expanded="true" signature="140:612" ph="{...}" />
+            <marker date="1568363452550" expanded="true" signature="258:278" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Beacon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <marker date="1568363481465" expanded="true" signature="27:266" ph="{...}" />
+            <marker date="1568363481465" expanded="true" signature="53:264" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/BluetoothLeDevice.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <marker date="1568367030467" expanded="true" signature="42:557" ph="{...}" />
+            <marker date="1568367030467" expanded="true" signature="79:555" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Challenge_2/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <marker date="1568158654540" expanded="true" signature="39:96" ph="@..." />
+            <marker date="1568158654540" expanded="true" signature="219:761" ph="&lt;table.../&gt;" />
+            <marker date="1568158654540" expanded="true" signature="257:418" ph="&lt;tr.../&gt;" />
+            <marker date="1568158654540" expanded="true" signature="428:752" ph="@..." />
+            <marker date="1568158654540" expanded="true" signature="461:752" ph="{...}" />
+            <marker date="1568158654540" expanded="true" signature="476:746" ph="&lt;tr.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/API/GetMobileData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="30">
           <caret line="11" column="47" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="47" />
           <folding>
-            <marker date="1567776577101" expanded="true" signature="6:187" ph="..." />
+            <marker date="1567776577101" expanded="false" signature="6:187" ph="..." />
             <marker date="1567776577101" expanded="true" signature="213:1992" ph="{...}" />
             <marker date="1567776577101" expanded="true" signature="283:1990" ph="{...}" />
             <marker date="1567776577101" expanded="true" signature="405:457" ph="{...}" />
@@ -997,71 +1143,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Models/BluetoothLeDevice.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding>
-            <marker date="1568146323817" expanded="true" signature="27:391" ph="{...}" />
-            <marker date="1568146323817" expanded="true" signature="64:389" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/ApplicationDbContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="70" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
-          <folding>
-            <marker date="1568143363135" expanded="false" signature="6:61" ph="..." />
-            <marker date="1568143363135" expanded="true" signature="88:563" ph="{...}" />
-            <marker date="1568143363135" expanded="true" signature="140:561" ph="{...}" />
-            <marker date="1568143363135" expanded="true" signature="258:278" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/API/Challenge_2API.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="130" selection-start-line="23" selection-start-column="130" selection-end-line="23" selection-end-column="130" />
+        <state relative-caret-position="270">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
-            <marker date="1568146323794" expanded="true" signature="6:54" ph="..." />
-            <marker date="1568146323794" expanded="true" signature="105:905" ph="{...}" />
-            <marker date="1568146323794" expanded="true" signature="176:903" ph="{...}" />
-            <marker date="1568146323794" expanded="true" signature="307:359" ph="{...}" />
-            <marker date="1568146323794" expanded="true" signature="546:888" ph="{...}" />
-            <marker date="1568146323794" expanded="true" signature="627:773" ph="{...}" />
+            <marker date="1568365963103" expanded="false" signature="6:79" ph="..." />
+            <marker date="1568365963103" expanded="true" signature="105:908" ph="{...}" />
+            <marker date="1568365963103" expanded="true" signature="176:906" ph="{...}" />
+            <marker date="1568365963103" expanded="true" signature="307:359" ph="{...}" />
+            <marker date="1568365963103" expanded="true" signature="549:891" ph="{...}" />
+            <marker date="1568365963103" expanded="true" signature="630:776" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/df/acd0682e/Thread.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/Challenge_2Controller.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        <state relative-caret-position="180">
+          <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
           <folding>
-            <marker date="1568158552885" expanded="true" signature="6:73" ph="..." />
-            <marker date="1568158552885" expanded="true" signature="107:829" ph="{...}" />
-            <marker date="1568158552885" expanded="true" signature="161:827" ph="{...}" />
-            <marker date="1568158552885" expanded="true" signature="290:343" ph="{...}" />
-            <marker date="1568158552885" expanded="true" signature="381:533" ph="{...}" />
-            <marker date="1568158552885" expanded="true" signature="632:812" ph="{...}" />
+            <marker date="1568367971072" expanded="true" signature="6:132" ph="..." />
+            <marker date="1568367971072" expanded="true" signature="166:8520" ph="{...}" />
+            <marker date="1568367971072" expanded="true" signature="220:8518" ph="{...}" />
+            <marker date="1568367971072" expanded="true" signature="349:402" ph="{...}" />
+            <marker date="1568367971072" expanded="true" signature="440:592" ph="{...}" />
+            <marker date="1568367971072" expanded="true" signature="678:7513" ph="{...}" />
+            <marker date="1568367971072" expanded="true" signature="746:7303" ph="{...}" />
+            <marker date="1568367971072" expanded="true" signature="7612:7792" ph="{...}" />
+            <marker date="1568367971072" expanded="true" signature="7880:8420" ph="{...}" />
+            <marker date="1568367971072" expanded="true" signature="8122:8317" ph="{...}" />
+            <marker date="1568367971072" expanded="true" signature="8456:8503" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Challenge_2/Index.cshtml">
+    <entry file="file://$PROJECT_DIR$/Views/Challenge_2/Map.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="91" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
+        <state relative-caret-position="290">
+          <caret line="298" column="67" selection-start-line="298" selection-start-column="67" selection-end-line="298" selection-end-column="67" />
           <folding>
-            <marker date="1568158654540" expanded="true" signature="39:96" ph="@..." />
-            <marker date="1568158654540" expanded="true" signature="219:761" ph="&lt;table.../&gt;" />
-            <marker date="1568158654540" expanded="true" signature="257:418" ph="&lt;tr.../&gt;" />
-            <marker date="1568158654540" expanded="true" signature="428:752" ph="@..." />
-            <marker date="1568158654540" expanded="true" signature="461:752" ph="{...}" />
-            <marker date="1568158654540" expanded="true" signature="476:746" ph="&lt;tr.../&gt;" />
+            <marker date="1568370657278" expanded="true" signature="2:59" ph="@..." />
+            <marker date="1568370657278" expanded="true" signature="282:495" ph="@*...*@" />
+            <marker date="1568370657278" expanded="true" signature="497:661" ph="&lt;div.../&gt;" />
+            <marker date="1568370657278" expanded="true" signature="665:13479" ph="@{...}" />
+            <marker date="1568370657278" expanded="true" signature="688:13235" ph="&lt;script.../&gt;" />
+            <marker date="1568370657278" expanded="true" signature="734:13219" ph="{...}" />
+            <marker date="1568370657278" expanded="true" signature="1013:1553" ph="{...}" />
+            <marker date="1568370657278" expanded="true" signature="1747:2019" ph="/* const circle_1 = {x: 0, y: 0, r: 5} ... */" />
+            <marker date="1568370657278" expanded="true" signature="2202:2323" ph="/* anyIntersection(circle_1, circle_2, circle_3); ... */" />
+            <marker date="1568370657278" expanded="true" signature="2445:3169" ph="{...}" />
+            <marker date="1568370657278" expanded="true" signature="3213:3262" ph="{...}" />
+            <marker date="1568370657278" expanded="true" signature="3334:11396" ph="{...}" />
+            <marker date="1568370657278" expanded="true" signature="6005:6085" ph="/* Intersection points ... */" />
+            <marker date="1568370657278" expanded="true" signature="7106:8011" ph="/* console.log(&quot;Intersection 1 Between 1 and 2 is: (&quot;, ... */" />
+            <marker date="1568370657278" expanded="true" signature="11065:11293" ph="{...}" />
+            <marker date="1568370657278" expanded="true" signature="11410:11966" ph="/* function calculateXY(x, y) { ... */" />
+            <marker date="1568370657278" expanded="true" signature="12102:13207" ph="{...}" />
+            <marker date="1568370657278" expanded="true" signature="12127:13162" ph="{...}" />
+            <marker date="1568370657278" expanded="true" signature="12263:13123" ph="{...}" />
+            <marker date="1568370657278" expanded="true" signature="13245:13477" ph="@*...*@" />
           </folding>
         </state>
       </provider>

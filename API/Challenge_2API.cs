@@ -17,7 +17,7 @@ namespace TestGoogle.API
         
 
         [Route("/api/GetBluetoothDevices")]
-        public IActionResult GetBluetoothDevices(string name, int rssi, int txPower, string dist, bool isBeacon,int testNr)
+        public IActionResult GetBluetoothDevices(string name, double rssi, int txPower, double dist, bool isBeacon,int testNr)
         {
             var bluetoothDevice = new BluetoothLeDevice()
             {

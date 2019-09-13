@@ -33,6 +33,7 @@
         <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
+        <e p="Beacon.cs" t="Include" />
         <e p="BluetoothLeDevice.cs" t="Include" />
         <e p="Defect.cs" t="Include" />
         <e p="ErrorViewModel.cs" t="Include" />
@@ -64,6 +65,7 @@
         <e p="_ViewStart.cshtml" t="Include" />
         <e p="Challenge_2" t="Include">
           <e p="Index.cshtml" t="Include" />
+          <e p="Map.cshtml" t="Include" />
         </e>
         <e p="Home" t="Include">
           <e p="AllData.cshtml" t="Include" />
@@ -90,6 +92,10 @@
           <e p="site.css" t="Include" />
         </e>
         <e p="favicon.ico" t="Include" />
+        <e p="images" t="Include">
+          <e p="CroppedMap.png" t="Include" />
+          <e p="Map.png" t="Include" />
+        </e>
         <e p="js" t="Include">
           <e p="site.js" t="Include" />
         </e>
